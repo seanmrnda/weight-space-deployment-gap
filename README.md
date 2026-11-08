@@ -81,7 +81,7 @@ The code is under the MIT License (`LICENSE`). Data derived from public datasets
 ```bibtex
 @article{weightspace2026deploymentgap,
   title  = {Weight-Space Editing Wins Benchmarks but Not Deployment: A Pre-Registered Study on a Small Decision Model},
-  author = {Sean},
+  author = {Miranda, Sean Lester},
   year   = {2026},
   note   = {arXiv identifier to be added}
 }
