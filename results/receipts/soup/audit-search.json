@@ -1,0 +1,23 @@
+{
+  "schema": "p2048-weight-space-replay-audit-v1",
+  "role": "search",
+  "threads": 2,
+  "sample": 60,
+  "seed": 2049,
+  "recipes": [
+    {
+      "id": "L",
+      "fingerprint": "47e21c121fcc8731",
+      "rows": 60,
+      "worst_logit_error": 0.0,
+      "answer_flips": 0
+    },
+    {
+      "id": "P+T-L",
+      "fingerprint": "8187b060d60cfd3b",
+      "rows": 60,
+      "worst_logit_error": 0.0,
+      "answer_flips": 0
+    }
+  ]
+}

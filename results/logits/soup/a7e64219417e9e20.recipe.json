@@ -1,0 +1,20 @@
+{
+ "id": "half-decision",
+ "rules": [
+  {
+   "match": "^(head|scorer|type_emb)\\.",
+   "coefs": {
+    "P": 0.5,
+    "T": 0.5
+   }
+  },
+  {
+   "match": ".*",
+   "coefs": {
+    "P": 1.0,
+    "T": 1.0,
+    "L": -1.0
+   }
+  }
+ ]
+}

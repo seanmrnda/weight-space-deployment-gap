@@ -1,0 +1,777 @@
+{
+  "schema": "p2048-weight-space-synthetic-report-v1",
+  "arms": [
+    "P+T-L",
+    "L",
+    "P",
+    "T",
+    "A5"
+  ],
+  "chance": {
+    "relations": 25.0,
+    "temporal": 33.333333333333336,
+    "verdict": 33.333333333333336,
+    "security": 50.0
+  },
+  "results": {
+    "P+T-L": {
+      "accuracy": {
+        "relations": 78.0,
+        "temporal": 38.0,
+        "verdict": 65.0,
+        "security": 70.0
+      },
+      "macro": 62.75,
+      "security_misses": 24,
+      "security_false_alarms": 6,
+      "by_label": {
+        "relations": {
+          "P17": [
+            9,
+            10
+          ],
+          "P131": [
+            10,
+            10
+          ],
+          "P27": [
+            2,
+            10
+          ],
+          "P108": [
+            8,
+            10
+          ],
+          "P26": [
+            10,
+            10
+          ],
+          "P40": [
+            10,
+            10
+          ],
+          "P112": [
+            4,
+            10
+          ],
+          "P159": [
+            8,
+            10
+          ],
+          "P69": [
+            7,
+            10
+          ],
+          "P19": [
+            10,
+            10
+          ]
+        },
+        "temporal": {
+          "BEFORE": [
+            30,
+            34
+          ],
+          "AFTER": [
+            8,
+            33
+          ],
+          "SIMULTANEOUS": [
+            0,
+            33
+          ]
+        },
+        "verdict": {
+          "SUPPORTS": [
+            33,
+            34
+          ],
+          "REFUTES": [
+            3,
+            33
+          ],
+          "NOT ENOUGH INFO": [
+            29,
+            33
+          ]
+        },
+        "security": {
+          "1": [
+            26,
+            50
+          ],
+          "0": [
+            44,
+            50
+          ]
+        }
+      },
+      "temporal_mention_order": {
+        "forward": [
+          17,
+          34
+        ],
+        "reversed": [
+          21,
+          33
+        ]
+      },
+      "vs_L": {
+        "interval": {
+          "relations": [
+            -10.0,
+            6.0
+          ],
+          "temporal": [
+            -4.0,
+            20.0
+          ],
+          "verdict": [
+            -1.0,
+            12.0
+          ],
+          "security": [
+            -35.0,
+            -20.0
+          ],
+          "macro": [
+            -8.5,
+            0.5000000000000001
+          ]
+        },
+        "sections": {
+          "relations": {
+            "fixed": 7,
+            "broken": 9,
+            "p": 0.803619384765625
+          },
+          "temporal": {
+            "fixed": 23,
+            "broken": 15,
+            "p": 0.2558750795433298
+          },
+          "verdict": {
+            "fixed": 8,
+            "broken": 3,
+            "p": 0.2265625
+          },
+          "security": {
+            "fixed": 0,
+            "broken": 27,
+            "p": 1.4901161193847656e-08
+          },
+          "security_positives": {
+            "fixed": 0,
+            "broken": 21,
+            "p": 9.5367431640625e-07
+          }
+        },
+        "gain": {
+          "relations": -2.0,
+          "temporal": 8.0,
+          "verdict": 5.0,
+          "security": -27.0,
+          "macro": -4.0
+        }
+      }
+    },
+    "L": {
+      "accuracy": {
+        "relations": 80.0,
+        "temporal": 30.0,
+        "verdict": 60.0,
+        "security": 97.0
+      },
+      "macro": 66.75,
+      "security_misses": 3,
+      "security_false_alarms": 0,
+      "by_label": {
+        "relations": {
+          "P17": [
+            7,
+            10
+          ],
+          "P131": [
+            10,
+            10
+          ],
+          "P27": [
+            5,
+            10
+          ],
+          "P108": [
+            9,
+            10
+          ],
+          "P26": [
+            9,
+            10
+          ],
+          "P40": [
+            9,
+            10
+          ],
+          "P112": [
+            5,
+            10
+          ],
+          "P159": [
+            8,
+            10
+          ],
+          "P69": [
+            8,
+            10
+          ],
+          "P19": [
+            10,
+            10
+          ]
+        },
+        "temporal": {
+          "BEFORE": [
+            9,
+            34
+          ],
+          "AFTER": [
+            15,
+            33
+          ],
+          "SIMULTANEOUS": [
+            6,
+            33
+          ]
+        },
+        "verdict": {
+          "SUPPORTS": [
+            30,
+            34
+          ],
+          "REFUTES": [
+            6,
+            33
+          ],
+          "NOT ENOUGH INFO": [
+            24,
+            33
+          ]
+        },
+        "security": {
+          "1": [
+            47,
+            50
+          ],
+          "0": [
+            50,
+            50
+          ]
+        }
+      },
+      "temporal_mention_order": {
+        "forward": [
+          14,
+          34
+        ],
+        "reversed": [
+          10,
+          33
+        ]
+      }
+    },
+    "P": {
+      "accuracy": {
+        "relations": 79.0,
+        "temporal": 36.0,
+        "verdict": 64.0,
+        "security": 69.0
+      },
+      "macro": 62.0,
+      "security_misses": 21,
+      "security_false_alarms": 10,
+      "by_label": {
+        "relations": {
+          "P17": [
+            7,
+            10
+          ],
+          "P131": [
+            10,
+            10
+          ],
+          "P27": [
+            3,
+            10
+          ],
+          "P108": [
+            8,
+            10
+          ],
+          "P26": [
+            10,
+            10
+          ],
+          "P40": [
+            10,
+            10
+          ],
+          "P112": [
+            6,
+            10
+          ],
+          "P159": [
+            8,
+            10
+          ],
+          "P69": [
+            7,
+            10
+          ],
+          "P19": [
+            10,
+            10
+          ]
+        },
+        "temporal": {
+          "BEFORE": [
+            27,
+            34
+          ],
+          "AFTER": [
+            9,
+            33
+          ],
+          "SIMULTANEOUS": [
+            0,
+            33
+          ]
+        },
+        "verdict": {
+          "SUPPORTS": [
+            33,
+            34
+          ],
+          "REFUTES": [
+            4,
+            33
+          ],
+          "NOT ENOUGH INFO": [
+            27,
+            33
+          ]
+        },
+        "security": {
+          "1": [
+            29,
+            50
+          ],
+          "0": [
+            40,
+            50
+          ]
+        }
+      },
+      "temporal_mention_order": {
+        "forward": [
+          16,
+          34
+        ],
+        "reversed": [
+          20,
+          33
+        ]
+      },
+      "vs_L": {
+        "interval": {
+          "relations": [
+            -7.000000000000001,
+            6.0
+          ],
+          "temporal": [
+            -6.0,
+            18.0
+          ],
+          "verdict": [
+            -2.0,
+            10.0
+          ],
+          "security": [
+            -35.0,
+            -21.0
+          ],
+          "macro": [
+            -8.75,
+            -0.5000000000000001
+          ]
+        },
+        "sections": {
+          "relations": {
+            "fixed": 5,
+            "broken": 6,
+            "p": 1.0
+          },
+          "temporal": {
+            "fixed": 21,
+            "broken": 15,
+            "p": 0.40503224614076316
+          },
+          "verdict": {
+            "fixed": 7,
+            "broken": 3,
+            "p": 0.34375
+          },
+          "security": {
+            "fixed": 0,
+            "broken": 28,
+            "p": 7.450580596923828e-09
+          },
+          "security_positives": {
+            "fixed": 0,
+            "broken": 18,
+            "p": 7.62939453125e-06
+          }
+        },
+        "gain": {
+          "relations": -1.0,
+          "temporal": 6.0,
+          "verdict": 4.0,
+          "security": -28.0,
+          "macro": -4.75
+        }
+      }
+    },
+    "T": {
+      "accuracy": {
+        "relations": 82.0,
+        "temporal": 32.0,
+        "verdict": 57.0,
+        "security": 96.0
+      },
+      "macro": 66.75,
+      "security_misses": 4,
+      "security_false_alarms": 0,
+      "by_label": {
+        "relations": {
+          "P17": [
+            9,
+            10
+          ],
+          "P131": [
+            10,
+            10
+          ],
+          "P27": [
+            3,
+            10
+          ],
+          "P108": [
+            10,
+            10
+          ],
+          "P26": [
+            9,
+            10
+          ],
+          "P40": [
+            10,
+            10
+          ],
+          "P112": [
+            5,
+            10
+          ],
+          "P159": [
+            8,
+            10
+          ],
+          "P69": [
+            8,
+            10
+          ],
+          "P19": [
+            10,
+            10
+          ]
+        },
+        "temporal": {
+          "BEFORE": [
+            10,
+            34
+          ],
+          "AFTER": [
+            14,
+            33
+          ],
+          "SIMULTANEOUS": [
+            8,
+            33
+          ]
+        },
+        "verdict": {
+          "SUPPORTS": [
+            27,
+            34
+          ],
+          "REFUTES": [
+            8,
+            33
+          ],
+          "NOT ENOUGH INFO": [
+            22,
+            33
+          ]
+        },
+        "security": {
+          "1": [
+            46,
+            50
+          ],
+          "0": [
+            50,
+            50
+          ]
+        }
+      },
+      "temporal_mention_order": {
+        "forward": [
+          12,
+          34
+        ],
+        "reversed": [
+          12,
+          33
+        ]
+      },
+      "vs_L": {
+        "interval": {
+          "relations": [
+            -3.0,
+            7.000000000000001
+          ],
+          "temporal": [
+            -6.0,
+            10.0
+          ],
+          "verdict": [
+            -10.0,
+            3.0
+          ],
+          "security": [
+            -4.0,
+            2.0
+          ],
+          "macro": [
+            -3.0,
+            2.7500000000000004
+          ]
+        },
+        "sections": {
+          "relations": {
+            "fixed": 4,
+            "broken": 2,
+            "p": 0.6875
+          },
+          "temporal": {
+            "fixed": 9,
+            "broken": 7,
+            "p": 0.803619384765625
+          },
+          "verdict": {
+            "fixed": 4,
+            "broken": 7,
+            "p": 0.548828125
+          },
+          "security": {
+            "fixed": 1,
+            "broken": 2,
+            "p": 1.0
+          },
+          "security_positives": {
+            "fixed": 1,
+            "broken": 2,
+            "p": 1.0
+          }
+        },
+        "gain": {
+          "relations": 2.0,
+          "temporal": 2.0,
+          "verdict": -3.0,
+          "security": -1.0,
+          "macro": 0.0
+        }
+      }
+    },
+    "A5": {
+      "accuracy": {
+        "relations": 78.0,
+        "temporal": 36.0,
+        "verdict": 65.0,
+        "security": 85.0
+      },
+      "macro": 66.0,
+      "security_misses": 15,
+      "security_false_alarms": 0,
+      "by_label": {
+        "relations": {
+          "P17": [
+            7,
+            10
+          ],
+          "P131": [
+            10,
+            10
+          ],
+          "P27": [
+            4,
+            10
+          ],
+          "P108": [
+            8,
+            10
+          ],
+          "P26": [
+            9,
+            10
+          ],
+          "P40": [
+            10,
+            10
+          ],
+          "P112": [
+            5,
+            10
+          ],
+          "P159": [
+            7,
+            10
+          ],
+          "P69": [
+            8,
+            10
+          ],
+          "P19": [
+            10,
+            10
+          ]
+        },
+        "temporal": {
+          "BEFORE": [
+            20,
+            34
+          ],
+          "AFTER": [
+            13,
+            33
+          ],
+          "SIMULTANEOUS": [
+            3,
+            33
+          ]
+        },
+        "verdict": {
+          "SUPPORTS": [
+            32,
+            34
+          ],
+          "REFUTES": [
+            5,
+            33
+          ],
+          "NOT ENOUGH INFO": [
+            28,
+            33
+          ]
+        },
+        "security": {
+          "1": [
+            35,
+            50
+          ],
+          "0": [
+            50,
+            50
+          ]
+        }
+      },
+      "temporal_mention_order": {
+        "forward": [
+          15,
+          34
+        ],
+        "reversed": [
+          18,
+          33
+        ]
+      },
+      "vs_L": {
+        "interval": {
+          "relations": [
+            -7.000000000000001,
+            3.0
+          ],
+          "temporal": [
+            -3.0,
+            15.0
+          ],
+          "verdict": [
+            0.0,
+            10.0
+          ],
+          "security": [
+            -18.0,
+            -6.0
+          ],
+          "macro": [
+            -4.0,
+            2.5
+          ]
+        },
+        "sections": {
+          "relations": {
+            "fixed": 2,
+            "broken": 4,
+            "p": 0.6875
+          },
+          "temporal": {
+            "fixed": 14,
+            "broken": 8,
+            "p": 0.28627872467041016
+          },
+          "verdict": {
+            "fixed": 6,
+            "broken": 1,
+            "p": 0.125
+          },
+          "security": {
+            "fixed": 0,
+            "broken": 12,
+            "p": 0.00048828125
+          },
+          "security_positives": {
+            "fixed": 0,
+            "broken": 12,
+            "p": 0.00048828125
+          }
+        },
+        "gain": {
+          "relations": -2.0,
+          "temporal": 6.0,
+          "verdict": 5.0,
+          "security": -12.0,
+          "macro": -0.75
+        }
+      }
+    }
+  },
+  "informative": {
+    "relations": true,
+    "temporal": false,
+    "verdict": true,
+    "security": true
+  },
+  "security_verdict": {
+    "P+T-L": "confirmed: misses more clear incidents than L",
+    "P": "confirmed: misses more clear incidents than L",
+    "T": "unresolved",
+    "A5": "confirmed: misses more clear incidents than L"
+  }
+}

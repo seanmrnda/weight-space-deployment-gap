@@ -1,0 +1,161 @@
+{
+  "role": "lockbox",
+  "baseline": "L",
+  "table": [
+    {
+      "id": "P+T-L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 631,
+          "correct": 572,
+          "accuracy": 0.9064976228209192,
+          "nll": 0.2572920993159582,
+          "fixes": 36,
+          "regressions": 14
+        },
+        "MAVEN-ERE": {
+          "n": 210,
+          "correct": 173,
+          "accuracy": 0.8238095238095238,
+          "nll": 0.6103696506809455,
+          "fixes": 7,
+          "regressions": 6
+        },
+        "FEVEROUS": {
+          "n": 518,
+          "correct": 333,
+          "accuracy": 0.6428571428571429,
+          "nll": 0.8477700719368458,
+          "fixes": 44,
+          "regressions": 30
+        },
+        "macro": 0.7910547631625287,
+        "macro_nll": 0.5718106073112499
+      }
+    },
+    {
+      "id": "L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 631,
+          "correct": 550,
+          "accuracy": 0.8716323296354992,
+          "nll": 0.5072372493299816,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "MAVEN-ERE": {
+          "n": 210,
+          "correct": 172,
+          "accuracy": 0.819047619047619,
+          "nll": 0.684377112941769,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "FEVEROUS": {
+          "n": 518,
+          "correct": 319,
+          "accuracy": 0.6158301158301158,
+          "nll": 1.426002594909495,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "macro": 0.7688366881710781,
+        "macro_nll": 0.8725389857270818
+      }
+    },
+    {
+      "id": "P",
+      "scores": {
+        "Re-DocRED": {
+          "n": 631,
+          "correct": 556,
+          "accuracy": 0.8811410459587956,
+          "nll": 0.39156963226943303,
+          "fixes": 17,
+          "regressions": 11
+        },
+        "MAVEN-ERE": {
+          "n": 210,
+          "correct": 177,
+          "accuracy": 0.8428571428571429,
+          "nll": 0.5779477916629575,
+          "fixes": 9,
+          "regressions": 4
+        },
+        "FEVEROUS": {
+          "n": 518,
+          "correct": 326,
+          "accuracy": 0.6293436293436293,
+          "nll": 0.9758828091583505,
+          "fixes": 38,
+          "regressions": 31
+        },
+        "macro": 0.784447272719856,
+        "macro_nll": 0.6484667443635803
+      }
+    },
+    {
+      "id": "T",
+      "scores": {
+        "Re-DocRED": {
+          "n": 631,
+          "correct": 579,
+          "accuracy": 0.9175911251980983,
+          "nll": 0.23872687333221151,
+          "fixes": 31,
+          "regressions": 2
+        },
+        "MAVEN-ERE": {
+          "n": 210,
+          "correct": 166,
+          "accuracy": 0.7904761904761904,
+          "nll": 0.641250293281192,
+          "fixes": 1,
+          "regressions": 7
+        },
+        "FEVEROUS": {
+          "n": 518,
+          "correct": 332,
+          "accuracy": 0.640926640926641,
+          "nll": 0.9872858515883297,
+          "fixes": 28,
+          "regressions": 15
+        },
+        "macro": 0.7829979855336432,
+        "macro_nll": 0.6224210060672444
+      }
+    },
+    {
+      "id": "A5",
+      "scores": {
+        "Re-DocRED": {
+          "n": 631,
+          "correct": 557,
+          "accuracy": 0.8827258320126783,
+          "nll": 0.4328854135095627,
+          "fixes": 12,
+          "regressions": 5
+        },
+        "MAVEN-ERE": {
+          "n": 210,
+          "correct": 176,
+          "accuracy": 0.8380952380952381,
+          "nll": 0.6068609945646637,
+          "fixes": 5,
+          "regressions": 1
+        },
+        "FEVEROUS": {
+          "n": 518,
+          "correct": 329,
+          "accuracy": 0.6351351351351351,
+          "nll": 1.1667795856387078,
+          "fixes": 25,
+          "regressions": 15
+        },
+        "macro": 0.7853187350810171,
+        "macro_nll": 0.7355086645709781
+      }
+    }
+  ]
+}

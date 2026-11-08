@@ -1,0 +1,2058 @@
+{
+  "schema": "p2048-weight-space-synthetic-plan-v1",
+  "salt": "synthetic-20261108",
+  "data_sha256": "78ef0f47909c6b7ddba08ad42bafc394ce5818c353b1556c9ea8016676f0c99d",
+  "inputs": {
+    ".local/raw/rel_info.json": "5ecf4e5e55c179fc83a3a3d19baa01efffecb26ba5edc0b4ac5a54ddf61fe3de"
+  },
+  "summary": {
+    "built": {
+      "relations": 100,
+      "temporal": 100,
+      "verdict": 100,
+      "security": 100
+    },
+    "overlap_removed": {},
+    "overlap_audit_run": true,
+    "over_token_limit": 0,
+    "final": {
+      "relations": 100,
+      "temporal": 100,
+      "verdict": 100,
+      "security": 100
+    },
+    "labels": {
+      "relations": {
+        "P17": 10,
+        "P131": 10,
+        "P27": 10,
+        "P108": 10,
+        "P26": 10,
+        "P40": 10,
+        "P112": 10,
+        "P159": 10,
+        "P69": 10,
+        "P19": 10
+      },
+      "temporal": {
+        "BEFORE": 34,
+        "AFTER": 33,
+        "SIMULTANEOUS": 33
+      },
+      "verdict": {
+        "SUPPORTS": 34,
+        "REFUTES": 33,
+        "NOT ENOUGH INFO": 33
+      },
+      "security": {
+        "1": 50,
+        "0": 50
+      }
+    }
+  },
+  "roles": {
+    "synthetic": [
+      {
+        "id": "SYN-REL:P17:0",
+        "source": "relations",
+        "component": "SYN-REL:P17:0"
+      },
+      {
+        "id": "SYN-REL:P17:1",
+        "source": "relations",
+        "component": "SYN-REL:P17:1"
+      },
+      {
+        "id": "SYN-REL:P17:2",
+        "source": "relations",
+        "component": "SYN-REL:P17:2"
+      },
+      {
+        "id": "SYN-REL:P17:3",
+        "source": "relations",
+        "component": "SYN-REL:P17:3"
+      },
+      {
+        "id": "SYN-REL:P17:4",
+        "source": "relations",
+        "component": "SYN-REL:P17:4"
+      },
+      {
+        "id": "SYN-REL:P17:5",
+        "source": "relations",
+        "component": "SYN-REL:P17:5"
+      },
+      {
+        "id": "SYN-REL:P17:6",
+        "source": "relations",
+        "component": "SYN-REL:P17:6"
+      },
+      {
+        "id": "SYN-REL:P17:7",
+        "source": "relations",
+        "component": "SYN-REL:P17:7"
+      },
+      {
+        "id": "SYN-REL:P17:8",
+        "source": "relations",
+        "component": "SYN-REL:P17:8"
+      },
+      {
+        "id": "SYN-REL:P17:9",
+        "source": "relations",
+        "component": "SYN-REL:P17:9"
+      },
+      {
+        "id": "SYN-REL:P131:0",
+        "source": "relations",
+        "component": "SYN-REL:P131:0"
+      },
+      {
+        "id": "SYN-REL:P131:1",
+        "source": "relations",
+        "component": "SYN-REL:P131:1"
+      },
+      {
+        "id": "SYN-REL:P131:2",
+        "source": "relations",
+        "component": "SYN-REL:P131:2"
+      },
+      {
+        "id": "SYN-REL:P131:3",
+        "source": "relations",
+        "component": "SYN-REL:P131:3"
+      },
+      {
+        "id": "SYN-REL:P131:4",
+        "source": "relations",
+        "component": "SYN-REL:P131:4"
+      },
+      {
+        "id": "SYN-REL:P131:5",
+        "source": "relations",
+        "component": "SYN-REL:P131:5"
+      },
+      {
+        "id": "SYN-REL:P131:6",
+        "source": "relations",
+        "component": "SYN-REL:P131:6"
+      },
+      {
+        "id": "SYN-REL:P131:7",
+        "source": "relations",
+        "component": "SYN-REL:P131:7"
+      },
+      {
+        "id": "SYN-REL:P131:8",
+        "source": "relations",
+        "component": "SYN-REL:P131:8"
+      },
+      {
+        "id": "SYN-REL:P131:9",
+        "source": "relations",
+        "component": "SYN-REL:P131:9"
+      },
+      {
+        "id": "SYN-REL:P27:0",
+        "source": "relations",
+        "component": "SYN-REL:P27:0"
+      },
+      {
+        "id": "SYN-REL:P27:1",
+        "source": "relations",
+        "component": "SYN-REL:P27:1"
+      },
+      {
+        "id": "SYN-REL:P27:2",
+        "source": "relations",
+        "component": "SYN-REL:P27:2"
+      },
+      {
+        "id": "SYN-REL:P27:3",
+        "source": "relations",
+        "component": "SYN-REL:P27:3"
+      },
+      {
+        "id": "SYN-REL:P27:4",
+        "source": "relations",
+        "component": "SYN-REL:P27:4"
+      },
+      {
+        "id": "SYN-REL:P27:5",
+        "source": "relations",
+        "component": "SYN-REL:P27:5"
+      },
+      {
+        "id": "SYN-REL:P27:6",
+        "source": "relations",
+        "component": "SYN-REL:P27:6"
+      },
+      {
+        "id": "SYN-REL:P27:7",
+        "source": "relations",
+        "component": "SYN-REL:P27:7"
+      },
+      {
+        "id": "SYN-REL:P27:8",
+        "source": "relations",
+        "component": "SYN-REL:P27:8"
+      },
+      {
+        "id": "SYN-REL:P27:9",
+        "source": "relations",
+        "component": "SYN-REL:P27:9"
+      },
+      {
+        "id": "SYN-REL:P108:0",
+        "source": "relations",
+        "component": "SYN-REL:P108:0"
+      },
+      {
+        "id": "SYN-REL:P108:1",
+        "source": "relations",
+        "component": "SYN-REL:P108:1"
+      },
+      {
+        "id": "SYN-REL:P108:2",
+        "source": "relations",
+        "component": "SYN-REL:P108:2"
+      },
+      {
+        "id": "SYN-REL:P108:3",
+        "source": "relations",
+        "component": "SYN-REL:P108:3"
+      },
+      {
+        "id": "SYN-REL:P108:4",
+        "source": "relations",
+        "component": "SYN-REL:P108:4"
+      },
+      {
+        "id": "SYN-REL:P108:5",
+        "source": "relations",
+        "component": "SYN-REL:P108:5"
+      },
+      {
+        "id": "SYN-REL:P108:6",
+        "source": "relations",
+        "component": "SYN-REL:P108:6"
+      },
+      {
+        "id": "SYN-REL:P108:7",
+        "source": "relations",
+        "component": "SYN-REL:P108:7"
+      },
+      {
+        "id": "SYN-REL:P108:8",
+        "source": "relations",
+        "component": "SYN-REL:P108:8"
+      },
+      {
+        "id": "SYN-REL:P108:9",
+        "source": "relations",
+        "component": "SYN-REL:P108:9"
+      },
+      {
+        "id": "SYN-REL:P26:0",
+        "source": "relations",
+        "component": "SYN-REL:P26:0"
+      },
+      {
+        "id": "SYN-REL:P26:1",
+        "source": "relations",
+        "component": "SYN-REL:P26:1"
+      },
+      {
+        "id": "SYN-REL:P26:2",
+        "source": "relations",
+        "component": "SYN-REL:P26:2"
+      },
+      {
+        "id": "SYN-REL:P26:3",
+        "source": "relations",
+        "component": "SYN-REL:P26:3"
+      },
+      {
+        "id": "SYN-REL:P26:4",
+        "source": "relations",
+        "component": "SYN-REL:P26:4"
+      },
+      {
+        "id": "SYN-REL:P26:5",
+        "source": "relations",
+        "component": "SYN-REL:P26:5"
+      },
+      {
+        "id": "SYN-REL:P26:6",
+        "source": "relations",
+        "component": "SYN-REL:P26:6"
+      },
+      {
+        "id": "SYN-REL:P26:7",
+        "source": "relations",
+        "component": "SYN-REL:P26:7"
+      },
+      {
+        "id": "SYN-REL:P26:8",
+        "source": "relations",
+        "component": "SYN-REL:P26:8"
+      },
+      {
+        "id": "SYN-REL:P26:9",
+        "source": "relations",
+        "component": "SYN-REL:P26:9"
+      },
+      {
+        "id": "SYN-REL:P40:0",
+        "source": "relations",
+        "component": "SYN-REL:P40:0"
+      },
+      {
+        "id": "SYN-REL:P40:1",
+        "source": "relations",
+        "component": "SYN-REL:P40:1"
+      },
+      {
+        "id": "SYN-REL:P40:2",
+        "source": "relations",
+        "component": "SYN-REL:P40:2"
+      },
+      {
+        "id": "SYN-REL:P40:3",
+        "source": "relations",
+        "component": "SYN-REL:P40:3"
+      },
+      {
+        "id": "SYN-REL:P40:4",
+        "source": "relations",
+        "component": "SYN-REL:P40:4"
+      },
+      {
+        "id": "SYN-REL:P40:5",
+        "source": "relations",
+        "component": "SYN-REL:P40:5"
+      },
+      {
+        "id": "SYN-REL:P40:6",
+        "source": "relations",
+        "component": "SYN-REL:P40:6"
+      },
+      {
+        "id": "SYN-REL:P40:7",
+        "source": "relations",
+        "component": "SYN-REL:P40:7"
+      },
+      {
+        "id": "SYN-REL:P40:8",
+        "source": "relations",
+        "component": "SYN-REL:P40:8"
+      },
+      {
+        "id": "SYN-REL:P40:9",
+        "source": "relations",
+        "component": "SYN-REL:P40:9"
+      },
+      {
+        "id": "SYN-REL:P112:0",
+        "source": "relations",
+        "component": "SYN-REL:P112:0"
+      },
+      {
+        "id": "SYN-REL:P112:1",
+        "source": "relations",
+        "component": "SYN-REL:P112:1"
+      },
+      {
+        "id": "SYN-REL:P112:2",
+        "source": "relations",
+        "component": "SYN-REL:P112:2"
+      },
+      {
+        "id": "SYN-REL:P112:3",
+        "source": "relations",
+        "component": "SYN-REL:P112:3"
+      },
+      {
+        "id": "SYN-REL:P112:4",
+        "source": "relations",
+        "component": "SYN-REL:P112:4"
+      },
+      {
+        "id": "SYN-REL:P112:5",
+        "source": "relations",
+        "component": "SYN-REL:P112:5"
+      },
+      {
+        "id": "SYN-REL:P112:6",
+        "source": "relations",
+        "component": "SYN-REL:P112:6"
+      },
+      {
+        "id": "SYN-REL:P112:7",
+        "source": "relations",
+        "component": "SYN-REL:P112:7"
+      },
+      {
+        "id": "SYN-REL:P112:8",
+        "source": "relations",
+        "component": "SYN-REL:P112:8"
+      },
+      {
+        "id": "SYN-REL:P112:9",
+        "source": "relations",
+        "component": "SYN-REL:P112:9"
+      },
+      {
+        "id": "SYN-REL:P159:0",
+        "source": "relations",
+        "component": "SYN-REL:P159:0"
+      },
+      {
+        "id": "SYN-REL:P159:1",
+        "source": "relations",
+        "component": "SYN-REL:P159:1"
+      },
+      {
+        "id": "SYN-REL:P159:2",
+        "source": "relations",
+        "component": "SYN-REL:P159:2"
+      },
+      {
+        "id": "SYN-REL:P159:3",
+        "source": "relations",
+        "component": "SYN-REL:P159:3"
+      },
+      {
+        "id": "SYN-REL:P159:4",
+        "source": "relations",
+        "component": "SYN-REL:P159:4"
+      },
+      {
+        "id": "SYN-REL:P159:5",
+        "source": "relations",
+        "component": "SYN-REL:P159:5"
+      },
+      {
+        "id": "SYN-REL:P159:6",
+        "source": "relations",
+        "component": "SYN-REL:P159:6"
+      },
+      {
+        "id": "SYN-REL:P159:7",
+        "source": "relations",
+        "component": "SYN-REL:P159:7"
+      },
+      {
+        "id": "SYN-REL:P159:8",
+        "source": "relations",
+        "component": "SYN-REL:P159:8"
+      },
+      {
+        "id": "SYN-REL:P159:9",
+        "source": "relations",
+        "component": "SYN-REL:P159:9"
+      },
+      {
+        "id": "SYN-REL:P69:0",
+        "source": "relations",
+        "component": "SYN-REL:P69:0"
+      },
+      {
+        "id": "SYN-REL:P69:1",
+        "source": "relations",
+        "component": "SYN-REL:P69:1"
+      },
+      {
+        "id": "SYN-REL:P69:2",
+        "source": "relations",
+        "component": "SYN-REL:P69:2"
+      },
+      {
+        "id": "SYN-REL:P69:3",
+        "source": "relations",
+        "component": "SYN-REL:P69:3"
+      },
+      {
+        "id": "SYN-REL:P69:4",
+        "source": "relations",
+        "component": "SYN-REL:P69:4"
+      },
+      {
+        "id": "SYN-REL:P69:5",
+        "source": "relations",
+        "component": "SYN-REL:P69:5"
+      },
+      {
+        "id": "SYN-REL:P69:6",
+        "source": "relations",
+        "component": "SYN-REL:P69:6"
+      },
+      {
+        "id": "SYN-REL:P69:7",
+        "source": "relations",
+        "component": "SYN-REL:P69:7"
+      },
+      {
+        "id": "SYN-REL:P69:8",
+        "source": "relations",
+        "component": "SYN-REL:P69:8"
+      },
+      {
+        "id": "SYN-REL:P69:9",
+        "source": "relations",
+        "component": "SYN-REL:P69:9"
+      },
+      {
+        "id": "SYN-REL:P19:0",
+        "source": "relations",
+        "component": "SYN-REL:P19:0"
+      },
+      {
+        "id": "SYN-REL:P19:1",
+        "source": "relations",
+        "component": "SYN-REL:P19:1"
+      },
+      {
+        "id": "SYN-REL:P19:2",
+        "source": "relations",
+        "component": "SYN-REL:P19:2"
+      },
+      {
+        "id": "SYN-REL:P19:3",
+        "source": "relations",
+        "component": "SYN-REL:P19:3"
+      },
+      {
+        "id": "SYN-REL:P19:4",
+        "source": "relations",
+        "component": "SYN-REL:P19:4"
+      },
+      {
+        "id": "SYN-REL:P19:5",
+        "source": "relations",
+        "component": "SYN-REL:P19:5"
+      },
+      {
+        "id": "SYN-REL:P19:6",
+        "source": "relations",
+        "component": "SYN-REL:P19:6"
+      },
+      {
+        "id": "SYN-REL:P19:7",
+        "source": "relations",
+        "component": "SYN-REL:P19:7"
+      },
+      {
+        "id": "SYN-REL:P19:8",
+        "source": "relations",
+        "component": "SYN-REL:P19:8"
+      },
+      {
+        "id": "SYN-REL:P19:9",
+        "source": "relations",
+        "component": "SYN-REL:P19:9"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:0",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:0"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:1",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:1"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:2",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:2"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:3",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:3"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:4",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:4"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:5",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:5"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:6",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:6"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:7",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:7"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:8",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:8"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:9",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:9"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:10",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:10"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:11",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:11"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:12",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:12"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:13",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:13"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:14",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:14"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:15",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:15"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:16",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:16"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:17",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:17"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:18",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:18"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:19",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:19"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:20",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:20"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:21",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:21"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:22",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:22"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:23",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:23"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:24",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:24"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:25",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:25"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:26",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:26"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:27",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:27"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:28",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:28"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:29",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:29"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:30",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:30"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:31",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:31"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:32",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:32"
+      },
+      {
+        "id": "SYN-TMP:BEFORE:33",
+        "source": "temporal",
+        "component": "SYN-TMP:BEFORE:33"
+      },
+      {
+        "id": "SYN-TMP:AFTER:0",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:0"
+      },
+      {
+        "id": "SYN-TMP:AFTER:1",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:1"
+      },
+      {
+        "id": "SYN-TMP:AFTER:2",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:2"
+      },
+      {
+        "id": "SYN-TMP:AFTER:3",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:3"
+      },
+      {
+        "id": "SYN-TMP:AFTER:4",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:4"
+      },
+      {
+        "id": "SYN-TMP:AFTER:5",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:5"
+      },
+      {
+        "id": "SYN-TMP:AFTER:6",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:6"
+      },
+      {
+        "id": "SYN-TMP:AFTER:7",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:7"
+      },
+      {
+        "id": "SYN-TMP:AFTER:8",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:8"
+      },
+      {
+        "id": "SYN-TMP:AFTER:9",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:9"
+      },
+      {
+        "id": "SYN-TMP:AFTER:10",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:10"
+      },
+      {
+        "id": "SYN-TMP:AFTER:11",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:11"
+      },
+      {
+        "id": "SYN-TMP:AFTER:12",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:12"
+      },
+      {
+        "id": "SYN-TMP:AFTER:13",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:13"
+      },
+      {
+        "id": "SYN-TMP:AFTER:14",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:14"
+      },
+      {
+        "id": "SYN-TMP:AFTER:15",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:15"
+      },
+      {
+        "id": "SYN-TMP:AFTER:16",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:16"
+      },
+      {
+        "id": "SYN-TMP:AFTER:17",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:17"
+      },
+      {
+        "id": "SYN-TMP:AFTER:18",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:18"
+      },
+      {
+        "id": "SYN-TMP:AFTER:19",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:19"
+      },
+      {
+        "id": "SYN-TMP:AFTER:20",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:20"
+      },
+      {
+        "id": "SYN-TMP:AFTER:21",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:21"
+      },
+      {
+        "id": "SYN-TMP:AFTER:22",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:22"
+      },
+      {
+        "id": "SYN-TMP:AFTER:23",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:23"
+      },
+      {
+        "id": "SYN-TMP:AFTER:24",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:24"
+      },
+      {
+        "id": "SYN-TMP:AFTER:25",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:25"
+      },
+      {
+        "id": "SYN-TMP:AFTER:26",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:26"
+      },
+      {
+        "id": "SYN-TMP:AFTER:27",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:27"
+      },
+      {
+        "id": "SYN-TMP:AFTER:28",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:28"
+      },
+      {
+        "id": "SYN-TMP:AFTER:29",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:29"
+      },
+      {
+        "id": "SYN-TMP:AFTER:30",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:30"
+      },
+      {
+        "id": "SYN-TMP:AFTER:31",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:31"
+      },
+      {
+        "id": "SYN-TMP:AFTER:32",
+        "source": "temporal",
+        "component": "SYN-TMP:AFTER:32"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:0",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:0"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:1",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:1"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:2",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:2"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:3",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:3"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:4",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:4"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:5",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:5"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:6",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:6"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:7",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:7"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:8",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:8"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:9",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:9"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:10",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:10"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:11",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:11"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:12",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:12"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:13",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:13"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:14",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:14"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:15",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:15"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:16",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:16"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:17",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:17"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:18",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:18"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:19",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:19"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:20",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:20"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:21",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:21"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:22",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:22"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:23",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:23"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:24",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:24"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:25",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:25"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:26",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:26"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:27",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:27"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:28",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:28"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:29",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:29"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:30",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:30"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:31",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:31"
+      },
+      {
+        "id": "SYN-TMP:SIMULTANEOUS:32",
+        "source": "temporal",
+        "component": "SYN-TMP:SIMULTANEOUS:32"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:0",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:0"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:1",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:1"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:2",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:2"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:3",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:3"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:4",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:4"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:5",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:5"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:6",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:6"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:7",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:7"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:8",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:8"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:9",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:9"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:10",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:10"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:11",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:11"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:12",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:12"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:13",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:13"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:14",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:14"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:15",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:15"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:16",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:16"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:17",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:17"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:18",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:18"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:19",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:19"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:20",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:20"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:21",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:21"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:22",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:22"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:23",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:23"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:24",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:24"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:25",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:25"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:26",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:26"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:27",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:27"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:28",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:28"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:29",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:29"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:30",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:30"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:31",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:31"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:32",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:32"
+      },
+      {
+        "id": "SYN-VER:SUPPORTS:33",
+        "source": "verdict",
+        "component": "SYN-VER:SUPPORTS:33"
+      },
+      {
+        "id": "SYN-VER:REFUTES:0",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:0"
+      },
+      {
+        "id": "SYN-VER:REFUTES:1",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:1"
+      },
+      {
+        "id": "SYN-VER:REFUTES:2",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:2"
+      },
+      {
+        "id": "SYN-VER:REFUTES:3",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:3"
+      },
+      {
+        "id": "SYN-VER:REFUTES:4",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:4"
+      },
+      {
+        "id": "SYN-VER:REFUTES:5",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:5"
+      },
+      {
+        "id": "SYN-VER:REFUTES:6",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:6"
+      },
+      {
+        "id": "SYN-VER:REFUTES:7",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:7"
+      },
+      {
+        "id": "SYN-VER:REFUTES:8",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:8"
+      },
+      {
+        "id": "SYN-VER:REFUTES:9",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:9"
+      },
+      {
+        "id": "SYN-VER:REFUTES:10",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:10"
+      },
+      {
+        "id": "SYN-VER:REFUTES:11",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:11"
+      },
+      {
+        "id": "SYN-VER:REFUTES:12",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:12"
+      },
+      {
+        "id": "SYN-VER:REFUTES:13",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:13"
+      },
+      {
+        "id": "SYN-VER:REFUTES:14",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:14"
+      },
+      {
+        "id": "SYN-VER:REFUTES:15",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:15"
+      },
+      {
+        "id": "SYN-VER:REFUTES:16",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:16"
+      },
+      {
+        "id": "SYN-VER:REFUTES:17",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:17"
+      },
+      {
+        "id": "SYN-VER:REFUTES:18",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:18"
+      },
+      {
+        "id": "SYN-VER:REFUTES:19",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:19"
+      },
+      {
+        "id": "SYN-VER:REFUTES:20",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:20"
+      },
+      {
+        "id": "SYN-VER:REFUTES:21",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:21"
+      },
+      {
+        "id": "SYN-VER:REFUTES:22",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:22"
+      },
+      {
+        "id": "SYN-VER:REFUTES:23",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:23"
+      },
+      {
+        "id": "SYN-VER:REFUTES:24",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:24"
+      },
+      {
+        "id": "SYN-VER:REFUTES:25",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:25"
+      },
+      {
+        "id": "SYN-VER:REFUTES:26",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:26"
+      },
+      {
+        "id": "SYN-VER:REFUTES:27",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:27"
+      },
+      {
+        "id": "SYN-VER:REFUTES:28",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:28"
+      },
+      {
+        "id": "SYN-VER:REFUTES:29",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:29"
+      },
+      {
+        "id": "SYN-VER:REFUTES:30",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:30"
+      },
+      {
+        "id": "SYN-VER:REFUTES:31",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:31"
+      },
+      {
+        "id": "SYN-VER:REFUTES:32",
+        "source": "verdict",
+        "component": "SYN-VER:REFUTES:32"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:0",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:0"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:1",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:1"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:2",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:2"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:3",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:3"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:4",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:4"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:5",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:5"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:6",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:6"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:7",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:7"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:8",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:8"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:9",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:9"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:10",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:10"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:11",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:11"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:12",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:12"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:13",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:13"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:14",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:14"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:15",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:15"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:16",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:16"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:17",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:17"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:18",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:18"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:19",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:19"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:20",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:20"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:21",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:21"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:22",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:22"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:23",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:23"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:24",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:24"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:25",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:25"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:26",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:26"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:27",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:27"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:28",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:28"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:29",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:29"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:30",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:30"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:31",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:31"
+      },
+      {
+        "id": "SYN-VER:NOT ENOUGH INFO:32",
+        "source": "verdict",
+        "component": "SYN-VER:NOT ENOUGH INFO:32"
+      },
+      {
+        "id": "SYN-SEC:pos:0:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:0"
+      },
+      {
+        "id": "SYN-SEC:pos:0:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:0"
+      },
+      {
+        "id": "SYN-SEC:pos:1:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:1"
+      },
+      {
+        "id": "SYN-SEC:pos:1:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:1"
+      },
+      {
+        "id": "SYN-SEC:pos:2:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:2"
+      },
+      {
+        "id": "SYN-SEC:pos:2:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:2"
+      },
+      {
+        "id": "SYN-SEC:pos:3:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:3"
+      },
+      {
+        "id": "SYN-SEC:pos:3:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:3"
+      },
+      {
+        "id": "SYN-SEC:pos:4:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:4"
+      },
+      {
+        "id": "SYN-SEC:pos:4:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:4"
+      },
+      {
+        "id": "SYN-SEC:pos:5:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:5"
+      },
+      {
+        "id": "SYN-SEC:pos:5:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:5"
+      },
+      {
+        "id": "SYN-SEC:pos:6:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:6"
+      },
+      {
+        "id": "SYN-SEC:pos:6:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:6"
+      },
+      {
+        "id": "SYN-SEC:pos:7:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:7"
+      },
+      {
+        "id": "SYN-SEC:pos:7:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:7"
+      },
+      {
+        "id": "SYN-SEC:pos:8:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:8"
+      },
+      {
+        "id": "SYN-SEC:pos:8:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:8"
+      },
+      {
+        "id": "SYN-SEC:pos:9:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:9"
+      },
+      {
+        "id": "SYN-SEC:pos:9:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:9"
+      },
+      {
+        "id": "SYN-SEC:pos:10:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:10"
+      },
+      {
+        "id": "SYN-SEC:pos:10:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:10"
+      },
+      {
+        "id": "SYN-SEC:pos:11:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:11"
+      },
+      {
+        "id": "SYN-SEC:pos:11:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:11"
+      },
+      {
+        "id": "SYN-SEC:pos:12:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:12"
+      },
+      {
+        "id": "SYN-SEC:pos:12:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:12"
+      },
+      {
+        "id": "SYN-SEC:pos:13:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:13"
+      },
+      {
+        "id": "SYN-SEC:pos:13:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:13"
+      },
+      {
+        "id": "SYN-SEC:pos:14:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:14"
+      },
+      {
+        "id": "SYN-SEC:pos:14:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:14"
+      },
+      {
+        "id": "SYN-SEC:pos:15:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:15"
+      },
+      {
+        "id": "SYN-SEC:pos:15:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:15"
+      },
+      {
+        "id": "SYN-SEC:pos:16:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:16"
+      },
+      {
+        "id": "SYN-SEC:pos:16:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:16"
+      },
+      {
+        "id": "SYN-SEC:pos:17:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:17"
+      },
+      {
+        "id": "SYN-SEC:pos:17:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:17"
+      },
+      {
+        "id": "SYN-SEC:pos:18:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:18"
+      },
+      {
+        "id": "SYN-SEC:pos:18:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:18"
+      },
+      {
+        "id": "SYN-SEC:pos:19:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:19"
+      },
+      {
+        "id": "SYN-SEC:pos:19:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:19"
+      },
+      {
+        "id": "SYN-SEC:pos:20:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:20"
+      },
+      {
+        "id": "SYN-SEC:pos:20:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:20"
+      },
+      {
+        "id": "SYN-SEC:pos:21:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:21"
+      },
+      {
+        "id": "SYN-SEC:pos:21:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:21"
+      },
+      {
+        "id": "SYN-SEC:pos:22:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:22"
+      },
+      {
+        "id": "SYN-SEC:pos:22:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:22"
+      },
+      {
+        "id": "SYN-SEC:pos:23:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:23"
+      },
+      {
+        "id": "SYN-SEC:pos:23:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:23"
+      },
+      {
+        "id": "SYN-SEC:pos:24:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:pos:24"
+      },
+      {
+        "id": "SYN-SEC:pos:24:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:pos:24"
+      },
+      {
+        "id": "SYN-SEC:neg:0:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:0"
+      },
+      {
+        "id": "SYN-SEC:neg:0:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:0"
+      },
+      {
+        "id": "SYN-SEC:neg:1:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:1"
+      },
+      {
+        "id": "SYN-SEC:neg:1:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:1"
+      },
+      {
+        "id": "SYN-SEC:neg:2:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:2"
+      },
+      {
+        "id": "SYN-SEC:neg:2:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:2"
+      },
+      {
+        "id": "SYN-SEC:neg:3:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:3"
+      },
+      {
+        "id": "SYN-SEC:neg:3:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:3"
+      },
+      {
+        "id": "SYN-SEC:neg:4:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:4"
+      },
+      {
+        "id": "SYN-SEC:neg:4:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:4"
+      },
+      {
+        "id": "SYN-SEC:neg:5:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:5"
+      },
+      {
+        "id": "SYN-SEC:neg:5:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:5"
+      },
+      {
+        "id": "SYN-SEC:neg:6:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:6"
+      },
+      {
+        "id": "SYN-SEC:neg:6:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:6"
+      },
+      {
+        "id": "SYN-SEC:neg:7:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:7"
+      },
+      {
+        "id": "SYN-SEC:neg:7:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:7"
+      },
+      {
+        "id": "SYN-SEC:neg:8:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:8"
+      },
+      {
+        "id": "SYN-SEC:neg:8:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:8"
+      },
+      {
+        "id": "SYN-SEC:neg:9:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:9"
+      },
+      {
+        "id": "SYN-SEC:neg:9:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:9"
+      },
+      {
+        "id": "SYN-SEC:neg:10:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:10"
+      },
+      {
+        "id": "SYN-SEC:neg:10:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:10"
+      },
+      {
+        "id": "SYN-SEC:neg:11:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:11"
+      },
+      {
+        "id": "SYN-SEC:neg:11:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:11"
+      },
+      {
+        "id": "SYN-SEC:neg:12:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:12"
+      },
+      {
+        "id": "SYN-SEC:neg:12:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:12"
+      },
+      {
+        "id": "SYN-SEC:neg:13:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:13"
+      },
+      {
+        "id": "SYN-SEC:neg:13:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:13"
+      },
+      {
+        "id": "SYN-SEC:neg:14:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:14"
+      },
+      {
+        "id": "SYN-SEC:neg:14:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:14"
+      },
+      {
+        "id": "SYN-SEC:neg:15:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:15"
+      },
+      {
+        "id": "SYN-SEC:neg:15:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:15"
+      },
+      {
+        "id": "SYN-SEC:neg:16:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:16"
+      },
+      {
+        "id": "SYN-SEC:neg:16:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:16"
+      },
+      {
+        "id": "SYN-SEC:neg:17:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:17"
+      },
+      {
+        "id": "SYN-SEC:neg:17:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:17"
+      },
+      {
+        "id": "SYN-SEC:neg:18:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:18"
+      },
+      {
+        "id": "SYN-SEC:neg:18:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:18"
+      },
+      {
+        "id": "SYN-SEC:neg:19:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:19"
+      },
+      {
+        "id": "SYN-SEC:neg:19:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:19"
+      },
+      {
+        "id": "SYN-SEC:neg:20:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:20"
+      },
+      {
+        "id": "SYN-SEC:neg:20:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:20"
+      },
+      {
+        "id": "SYN-SEC:neg:21:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:21"
+      },
+      {
+        "id": "SYN-SEC:neg:21:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:21"
+      },
+      {
+        "id": "SYN-SEC:neg:22:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:22"
+      },
+      {
+        "id": "SYN-SEC:neg:22:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:22"
+      },
+      {
+        "id": "SYN-SEC:neg:23:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:23"
+      },
+      {
+        "id": "SYN-SEC:neg:23:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:23"
+      },
+      {
+        "id": "SYN-SEC:neg:24:true_positive",
+        "source": "security",
+        "component": "SYN-SEC:neg:24"
+      },
+      {
+        "id": "SYN-SEC:neg:24:credential_compromise",
+        "source": "security",
+        "component": "SYN-SEC:neg:24"
+      }
+    ]
+  },
+  "rule": "Frozen before any model is scored on these rows. See docs/p2048-weight-space-synthetic-benchmark.md."
+}

@@ -1,0 +1,130 @@
+{
+ "P+T-L": {
+  "agent_trace_observability": {
+   "fixed": 9,
+   "broken": 19,
+   "p": 0.0872
+  },
+  "customer_service": {
+   "fixed": 6,
+   "broken": 16,
+   "p": 0.0525
+  },
+  "invoice_processing": {
+   "fixed": 10,
+   "broken": 16,
+   "p": 0.3269
+  },
+  "security_incidents": {
+   "fixed": 7,
+   "broken": 22,
+   "p": 0.0081
+  },
+  "secpos": {
+   "fixed": 1,
+   "broken": 7,
+   "p": 0.0703
+  },
+  "all_workflows": {
+   "fixed": 32,
+   "broken": 73,
+   "p": 7.808423662658282e-05
+  }
+ },
+ "P": {
+  "agent_trace_observability": {
+   "fixed": 11,
+   "broken": 16,
+   "p": 0.4421
+  },
+  "customer_service": {
+   "fixed": 7,
+   "broken": 12,
+   "p": 0.3593
+  },
+  "invoice_processing": {
+   "fixed": 9,
+   "broken": 16,
+   "p": 0.2295
+  },
+  "security_incidents": {
+   "fixed": 6,
+   "broken": 19,
+   "p": 0.0146
+  },
+  "secpos": {
+   "fixed": 1,
+   "broken": 6,
+   "p": 0.125
+  },
+  "all_workflows": {
+   "fixed": 33,
+   "broken": 63,
+   "p": 0.002878610081200932
+  }
+ },
+ "T": {
+  "agent_trace_observability": {
+   "fixed": 0,
+   "broken": 7,
+   "p": 0.0156
+  },
+  "customer_service": {
+   "fixed": 6,
+   "broken": 6,
+   "p": 1
+  },
+  "invoice_processing": {
+   "fixed": 4,
+   "broken": 4,
+   "p": 1
+  },
+  "security_incidents": {
+   "fixed": 2,
+   "broken": 8,
+   "p": 0.1094
+  },
+  "secpos": {
+   "fixed": 0,
+   "broken": 3,
+   "p": 0.25
+  },
+  "all_workflows": {
+   "fixed": 12,
+   "broken": 25,
+   "p": 0.04703102743951604
+  }
+ },
+ "A5": {
+  "agent_trace_observability": {
+   "fixed": 6,
+   "broken": 6,
+   "p": 1
+  },
+  "customer_service": {
+   "fixed": 6,
+   "broken": 7,
+   "p": 1
+  },
+  "invoice_processing": {
+   "fixed": 7,
+   "broken": 4,
+   "p": 0.5488
+  },
+  "security_incidents": {
+   "fixed": 3,
+   "broken": 9,
+   "p": 0.146
+  },
+  "secpos": {
+   "fixed": 0,
+   "broken": 3,
+   "p": 0.25
+  },
+  "all_workflows": {
+   "fixed": 22,
+   "broken": 26,
+   "p": 0.6654658120766186
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "L-decision",
+ "rules": [
+  {
+   "match": "^(head|scorer|type_emb)\\.",
+   "coefs": {
+    "L": 1.0
+   }
+  },
+  {
+   "match": ".*",
+   "coefs": {
+    "P": 1.0,
+    "T": 1.0,
+    "L": -1.0
+   }
+  }
+ ]
+}

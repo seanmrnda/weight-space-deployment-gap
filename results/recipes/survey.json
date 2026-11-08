@@ -1,0 +1,9 @@
+[{"id":"L","rules":[{"match":".*","coefs":{"L":1.0}}]},
+{"id":"P","rules":[{"match":".*","coefs":{"P":1.0}}]},
+{"id":"T","rules":[{"match":".*","coefs":{"T":1.0}}]},
+{"id":"A5","rules":[{"match":".*","coefs":{"A5":1.0}}]},
+{"id":"H","rules":[{"match":".*","coefs":{"H":1.0}}]},
+{"id":"T1000","rules":[{"match":".*","coefs":{"T1000":1.0}}]},
+{"id":"T3000","rules":[{"match":".*","coefs":{"T3000":1.0}}]},
+{"id":"v4","rules":[{"match":".*","coefs":{"v4":1.0}}]},
+{"id":"v3","rules":[{"match":".*","coefs":{"v3":1.0}}]}]

@@ -1,0 +1,347 @@
+{
+  "role": "screen",
+  "baseline": "L",
+  "table": [
+    {
+      "id": "L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 167,
+          "accuracy": 0.835,
+          "nll": 0.47014173419067545,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 160,
+          "accuracy": 0.8,
+          "nll": 0.7029338223164856,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 119,
+          "accuracy": 0.595,
+          "nll": 1.4568303610824884,
+          "fixes": 0,
+          "regressions": 0
+        },
+        "macro": 0.7433333333333333,
+        "macro_nll": 0.8766353058632165
+      }
+    },
+    {
+      "id": "P",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 172,
+          "accuracy": 0.86,
+          "nll": 0.40469166384129096,
+          "fixes": 9,
+          "regressions": 4
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 162,
+          "accuracy": 0.81,
+          "nll": 0.5746200030300704,
+          "fixes": 7,
+          "regressions": 5
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 127,
+          "accuracy": 0.635,
+          "nll": 0.9966019865622371,
+          "fixes": 17,
+          "regressions": 9
+        },
+        "macro": 0.7683333333333334,
+        "macro_nll": 0.6586378844778662
+      }
+    },
+    {
+      "id": "H",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 172,
+          "accuracy": 0.86,
+          "nll": 0.4093402162675631,
+          "fixes": 10,
+          "regressions": 5
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 162,
+          "accuracy": 0.81,
+          "nll": 0.5576023073023687,
+          "fixes": 10,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 127,
+          "accuracy": 0.635,
+          "nll": 0.8918727561887624,
+          "fixes": 22,
+          "regressions": 14
+        },
+        "macro": 0.7683333333333334,
+        "macro_nll": 0.6196050932528981
+      }
+    },
+    {
+      "id": "P+T-L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 183,
+          "accuracy": 0.915,
+          "nll": 0.2810315040449358,
+          "fixes": 19,
+          "regressions": 3
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 156,
+          "accuracy": 0.78,
+          "nll": 0.657409377590692,
+          "fixes": 4,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 129,
+          "accuracy": 0.645,
+          "nll": 0.8578961954269705,
+          "fixes": 20,
+          "regressions": 10
+        },
+        "macro": 0.7799999999999999,
+        "macro_nll": 0.5987790256875328
+      }
+    },
+    {
+      "id": "H+T-L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 180,
+          "accuracy": 0.9,
+          "nll": 0.2812112303903353,
+          "fixes": 17,
+          "regressions": 4
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 162,
+          "accuracy": 0.81,
+          "nll": 0.6268146421779578,
+          "fixes": 10,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 127,
+          "accuracy": 0.635,
+          "nll": 0.8409394539165749,
+          "fixes": 25,
+          "regressions": 17
+        },
+        "macro": 0.7816666666666667,
+        "macro_nll": 0.5829884421616226
+      }
+    },
+    {
+      "id": "H-noT-low",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 178,
+          "accuracy": 0.89,
+          "nll": 0.31175228207063205,
+          "fixes": 14,
+          "regressions": 3
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 161,
+          "accuracy": 0.805,
+          "nll": 0.6075278878485623,
+          "fixes": 9,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 126,
+          "accuracy": 0.63,
+          "nll": 0.8213353295447625,
+          "fixes": 23,
+          "regressions": 16
+        },
+        "macro": 0.775,
+        "macro_nll": 0.5802051664879856
+      }
+    },
+    {
+      "id": "H-noT-mid",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 177,
+          "accuracy": 0.885,
+          "nll": 0.32027526140350765,
+          "fixes": 14,
+          "regressions": 4
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 163,
+          "accuracy": 0.815,
+          "nll": 0.6060451015951278,
+          "fixes": 10,
+          "regressions": 7
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 128,
+          "accuracy": 0.64,
+          "nll": 0.8484572976174058,
+          "fixes": 26,
+          "regressions": 17
+        },
+        "macro": 0.7799999999999999,
+        "macro_nll": 0.5915925535386805
+      }
+    },
+    {
+      "id": "H-noT-high",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 179,
+          "accuracy": 0.895,
+          "nll": 0.2824389216769495,
+          "fixes": 17,
+          "regressions": 5
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 162,
+          "accuracy": 0.81,
+          "nll": 0.5948813335424387,
+          "fixes": 10,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 126,
+          "accuracy": 0.63,
+          "nll": 0.8661911655840181,
+          "fixes": 25,
+          "regressions": 18
+        },
+        "macro": 0.7783333333333333,
+        "macro_nll": 0.5811704736011354
+      }
+    },
+    {
+      "id": "H-halfT-experts",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 180,
+          "accuracy": 0.9,
+          "nll": 0.2895553495189307,
+          "fixes": 16,
+          "regressions": 3
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 163,
+          "accuracy": 0.815,
+          "nll": 0.6127516715635776,
+          "fixes": 10,
+          "regressions": 7
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 127,
+          "accuracy": 0.635,
+          "nll": 0.840641340729073,
+          "fixes": 25,
+          "regressions": 17
+        },
+        "macro": 0.7833333333333333,
+        "macro_nll": 0.5809827872705271
+      }
+    },
+    {
+      "id": "H+.5(T-L)",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 178,
+          "accuracy": 0.89,
+          "nll": 0.3233917982029626,
+          "fixes": 15,
+          "regressions": 4
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 161,
+          "accuracy": 0.805,
+          "nll": 0.5782621467426164,
+          "fixes": 9,
+          "regressions": 8
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 126,
+          "accuracy": 0.63,
+          "nll": 0.8541568389399007,
+          "fixes": 25,
+          "regressions": 18
+        },
+        "macro": 0.775,
+        "macro_nll": 0.5852702612951599
+      }
+    },
+    {
+      "id": "mean(H,P)+T-L",
+      "scores": {
+        "Re-DocRED": {
+          "n": 200,
+          "correct": 180,
+          "accuracy": 0.9,
+          "nll": 0.2800654348047399,
+          "fixes": 16,
+          "regressions": 3
+        },
+        "MAVEN-ERE": {
+          "n": 200,
+          "correct": 154,
+          "accuracy": 0.77,
+          "nll": 0.642082012376825,
+          "fixes": 5,
+          "regressions": 11
+        },
+        "FEVEROUS": {
+          "n": 200,
+          "correct": 123,
+          "accuracy": 0.615,
+          "nll": 0.8610706776856515,
+          "fixes": 17,
+          "regressions": 13
+        },
+        "macro": 0.7616666666666667,
+        "macro_nll": 0.5944060416224054
+      }
+    }
+  ]
+}

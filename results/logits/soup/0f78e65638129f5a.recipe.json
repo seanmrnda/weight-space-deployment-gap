@@ -1,0 +1,35 @@
+{
+ "id": "noT-encoder-rest",
+ "rules": [
+  {
+   "match": "\\.router\\.",
+   "coefs": {
+    "P": 1.0,
+    "T": 1.0,
+    "L": -1.0
+   }
+  },
+  {
+   "match": "\\.experts\\.",
+   "coefs": {
+    "P": 1.0,
+    "T": 1.0,
+    "L": -1.0
+   }
+  },
+  {
+   "match": "^encoder\\.",
+   "coefs": {
+    "P": 1.0
+   }
+  },
+  {
+   "match": ".*",
+   "coefs": {
+    "P": 1.0,
+    "T": 1.0,
+    "L": -1.0
+   }
+  }
+ ]
+}

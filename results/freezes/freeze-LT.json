@@ -1,0 +1,21 @@
+{
+  "schema": "p2048-weight-space-blend-freeze-v1",
+  "created": "2026-11-08",
+  "study": "L+c(T-L) blend, docs/p2048-weight-space-blend-LT.md",
+  "selected_fingerprint": null,
+  "reference_fingerprints": [
+    "47df0d00898b1c8b",
+    "47e21c121fcc8731",
+    "b53d54351ba16682",
+    "bb2cd8eb66a2c9b3",
+    "dd815c9b7b28c25d"
+  ],
+  "arms": {
+    "L+0.25(T-L)": "dd815c9b7b28c25d",
+    "L+0.5(T-L)": "b53d54351ba16682",
+    "L+0.75(T-L)": "47df0d00898b1c8b",
+    "L": "47e21c121fcc8731",
+    "T": "bb2cd8eb66a2c9b3"
+  },
+  "note": "Second, post-lockbox use of the lockbox panel, pre-registered before any blend was scored. Not confirmatory in the original sense."
+}

@@ -1,0 +1,191 @@
+[
+ {
+  "id": "noT-decision",
+  "rules": [
+   {
+    "match": "^(head|scorer|type_emb)\\.",
+    "coefs": {
+     "P": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "noP-decision",
+  "rules": [
+   {
+    "match": "^(head|scorer|type_emb)\\.",
+    "coefs": {
+     "T": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "L-decision",
+  "rules": [
+   {
+    "match": "^(head|scorer|type_emb)\\.",
+    "coefs": {
+     "L": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "half-decision",
+  "rules": [
+   {
+    "match": "^(head|scorer|type_emb)\\.",
+    "coefs": {
+     "P": 0.5,
+     "T": 0.5
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "noT-routers",
+  "rules": [
+   {
+    "match": "\\.router\\.",
+    "coefs": {
+     "P": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "noT-experts",
+  "rules": [
+   {
+    "match": "\\.experts\\.",
+    "coefs": {
+     "P": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "noT-encoder-rest",
+  "rules": [
+   {
+    "match": "\\.router\\.",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   },
+   {
+    "match": "\\.experts\\.",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   },
+   {
+    "match": "^encoder\\.",
+    "coefs": {
+     "P": 1.0
+    }
+   },
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "H+T-L",
+  "rules": [
+   {
+    "match": ".*",
+    "coefs": {
+     "H": 1.0,
+     "T": 1.0,
+     "L": -1.0
+    }
+   }
+  ]
+ },
+ {
+  "id": "P+1.5(T-L)",
+  "rules": [
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.0,
+     "T": 1.5,
+     "L": -1.5
+    }
+   }
+  ]
+ },
+ {
+  "id": "1.5(P-L)+T",
+  "rules": [
+   {
+    "match": ".*",
+    "coefs": {
+     "P": 1.5,
+     "T": 1.0,
+     "L": -1.5
+    }
+   }
+  ]
+ }
+]

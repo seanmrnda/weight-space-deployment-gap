@@ -1,0 +1,997 @@
+{
+  "schema": "p2048-weight-space-deploy-v1",
+  "arms": [
+    "P+T-L",
+    "L",
+    "P",
+    "T",
+    "A5"
+  ],
+  "legacy": {
+    "P+T-L": {
+      "slices": {
+        "choice": {
+          "rows": 4176,
+          "accuracy": 52.99329501915708,
+          "delta_vs_L": 0.16762452107279557,
+          "gated": true,
+          "passes": true
+        },
+        "noul": {
+          "rows": 1638,
+          "accuracy": 67.58241758241759,
+          "delta_vs_L": -0.366300366300365,
+          "gated": true,
+          "passes": true
+        },
+        "score": {
+          "rows": 986,
+          "accuracy": 59.83772819472617,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "agent_trace_observability": {
+          "rows": 200,
+          "accuracy": 77.5,
+          "delta_vs_L": -4.999999999999993,
+          "gated": true,
+          "passes": false
+        },
+        "customer_service": {
+          "rows": 200,
+          "accuracy": 74.5,
+          "delta_vs_L": -5.000000000000004,
+          "gated": true,
+          "passes": false
+        },
+        "invoice_processing": {
+          "rows": 200,
+          "accuracy": 81.5,
+          "delta_vs_L": -3.0000000000000027,
+          "gated": true,
+          "passes": false
+        },
+        "security_incidents": {
+          "rows": 200,
+          "accuracy": 74.5,
+          "delta_vs_L": -7.499999999999996,
+          "gated": true,
+          "passes": false
+        }
+      },
+      "security_positives": 54,
+      "security_false_negatives": 14,
+      "security_false_negatives_L": 8,
+      "G1": false
+    },
+    "L": {
+      "slices": {
+        "choice": {
+          "rows": 4176,
+          "accuracy": 52.825670498084285,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "noul": {
+          "rows": 1638,
+          "accuracy": 67.94871794871796,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "score": {
+          "rows": 986,
+          "accuracy": 59.83772819472617,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "agent_trace_observability": {
+          "rows": 200,
+          "accuracy": 82.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "customer_service": {
+          "rows": 200,
+          "accuracy": 79.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "invoice_processing": {
+          "rows": 200,
+          "accuracy": 84.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "security_incidents": {
+          "rows": 200,
+          "accuracy": 82.0,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        }
+      },
+      "security_positives": 54,
+      "security_false_negatives": 8,
+      "security_false_negatives_L": 8,
+      "G1": true
+    },
+    "P": {
+      "slices": {
+        "choice": {
+          "rows": 4176,
+          "accuracy": 53.35249042145593,
+          "delta_vs_L": 0.5268199233716464,
+          "gated": true,
+          "passes": true
+        },
+        "noul": {
+          "rows": 1638,
+          "accuracy": 68.25396825396825,
+          "delta_vs_L": 0.30525030525030417,
+          "gated": true,
+          "passes": true
+        },
+        "score": {
+          "rows": 986,
+          "accuracy": 60.547667342799194,
+          "delta_vs_L": 0.7099391480730244,
+          "gated": true,
+          "passes": true
+        },
+        "agent_trace_observability": {
+          "rows": 200,
+          "accuracy": 80.0,
+          "delta_vs_L": -2.499999999999991,
+          "gated": true,
+          "passes": false
+        },
+        "customer_service": {
+          "rows": 200,
+          "accuracy": 77.0,
+          "delta_vs_L": -2.500000000000002,
+          "gated": true,
+          "passes": false
+        },
+        "invoice_processing": {
+          "rows": 200,
+          "accuracy": 81.0,
+          "delta_vs_L": -3.499999999999992,
+          "gated": true,
+          "passes": false
+        },
+        "security_incidents": {
+          "rows": 200,
+          "accuracy": 75.5,
+          "delta_vs_L": -6.499999999999995,
+          "gated": true,
+          "passes": false
+        }
+      },
+      "security_positives": 54,
+      "security_false_negatives": 13,
+      "security_false_negatives_L": 8,
+      "G1": false
+    },
+    "T": {
+      "slices": {
+        "choice": {
+          "rows": 4176,
+          "accuracy": 52.70593869731801,
+          "delta_vs_L": -0.11973180076627621,
+          "gated": true,
+          "passes": true
+        },
+        "noul": {
+          "rows": 1638,
+          "accuracy": 68.13186813186813,
+          "delta_vs_L": 0.1831501831501825,
+          "gated": true,
+          "passes": true
+        },
+        "score": {
+          "rows": 986,
+          "accuracy": 60.649087221095336,
+          "delta_vs_L": 0.8113590263691628,
+          "gated": true,
+          "passes": true
+        },
+        "agent_trace_observability": {
+          "rows": 200,
+          "accuracy": 79.0,
+          "delta_vs_L": -3.499999999999992,
+          "gated": true,
+          "passes": false
+        },
+        "customer_service": {
+          "rows": 200,
+          "accuracy": 79.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "invoice_processing": {
+          "rows": 200,
+          "accuracy": 84.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "security_incidents": {
+          "rows": 200,
+          "accuracy": 79.0,
+          "delta_vs_L": -2.9999999999999916,
+          "gated": true,
+          "passes": false
+        }
+      },
+      "security_positives": 54,
+      "security_false_negatives": 11,
+      "security_false_negatives_L": 8,
+      "G1": false
+    },
+    "A5": {
+      "slices": {
+        "choice": {
+          "rows": 4176,
+          "accuracy": 52.63409961685823,
+          "delta_vs_L": -0.19157088122605526,
+          "gated": true,
+          "passes": true
+        },
+        "noul": {
+          "rows": 1638,
+          "accuracy": 68.62026862026862,
+          "delta_vs_L": 0.6715506715506692,
+          "gated": true,
+          "passes": true
+        },
+        "score": {
+          "rows": 986,
+          "accuracy": 61.4604462474645,
+          "delta_vs_L": 1.6227180527383367,
+          "gated": true,
+          "passes": true
+        },
+        "agent_trace_observability": {
+          "rows": 200,
+          "accuracy": 82.5,
+          "delta_vs_L": 0.0,
+          "gated": true,
+          "passes": true
+        },
+        "customer_service": {
+          "rows": 200,
+          "accuracy": 79.0,
+          "delta_vs_L": -0.5000000000000004,
+          "gated": true,
+          "passes": true
+        },
+        "invoice_processing": {
+          "rows": 200,
+          "accuracy": 86.0,
+          "delta_vs_L": 1.5000000000000013,
+          "gated": true,
+          "passes": true
+        },
+        "security_incidents": {
+          "rows": 200,
+          "accuracy": 79.0,
+          "delta_vs_L": -2.9999999999999916,
+          "gated": true,
+          "passes": false
+        }
+      },
+      "security_positives": 54,
+      "security_false_negatives": 11,
+      "security_false_negatives_L": 8,
+      "G1": false
+    }
+  },
+  "external": {
+    "L": {
+      "accuracy": {
+        "DWIE": 64.40460947503202,
+        "MATRES": 47.09944751381215,
+        "AVeriTeC": 29.47368421052631
+      },
+      "macro": 46.992580399790164,
+      "recall": {
+        "DWIE": {
+          "P17": [
+            198,
+            308
+          ],
+          "P463": [
+            79,
+            159
+          ],
+          "P27": [
+            84,
+            144
+          ],
+          "P35": [
+            32,
+            33
+          ],
+          "P6": [
+            28,
+            29
+          ],
+          "P159": [
+            18,
+            21
+          ],
+          "P361": [
+            12,
+            21
+          ],
+          "P131": [
+            15,
+            17
+          ],
+          "P54": [
+            10,
+            13
+          ],
+          "P166": [
+            9,
+            10
+          ],
+          "P26": [
+            6,
+            7
+          ],
+          "P276": [
+            7,
+            7
+          ],
+          "P176": [
+            2,
+            6
+          ],
+          "P57": [
+            2,
+            2
+          ],
+          "P40": [
+            0,
+            2
+          ],
+          "P1441": [
+            1,
+            1
+          ],
+          "P112": [
+            0,
+            1
+          ]
+        },
+        "MATRES": {
+          "BEFORE": [
+            166,
+            424
+          ],
+          "AFTER": [
+            173,
+            269
+          ],
+          "SIMULTANEOUS": [
+            2,
+            31
+          ]
+        },
+        "AVeriTeC": {
+          "REFUTES": [
+            98,
+            403
+          ],
+          "SUPPORTS": [
+            31,
+            222
+          ],
+          "NOT ENOUGH INFO": [
+            95,
+            135
+          ]
+        }
+      },
+      "n": {
+        "DWIE": 781,
+        "MATRES": 724,
+        "AVeriTeC": 760
+      }
+    },
+    "P+T-L": {
+      "accuracy": {
+        "DWIE": 74.13572343149808,
+        "MATRES": 56.07734806629834,
+        "AVeriTeC": 27.89473684210526
+      },
+      "macro": 52.70260277996723,
+      "recall": {
+        "DWIE": {
+          "P17": [
+            244,
+            308
+          ],
+          "P463": [
+            85,
+            159
+          ],
+          "P27": [
+            105,
+            144
+          ],
+          "P35": [
+            30,
+            33
+          ],
+          "P6": [
+            28,
+            29
+          ],
+          "P159": [
+            17,
+            21
+          ],
+          "P361": [
+            12,
+            21
+          ],
+          "P131": [
+            16,
+            17
+          ],
+          "P54": [
+            12,
+            13
+          ],
+          "P166": [
+            9,
+            10
+          ],
+          "P26": [
+            6,
+            7
+          ],
+          "P276": [
+            7,
+            7
+          ],
+          "P176": [
+            2,
+            6
+          ],
+          "P57": [
+            2,
+            2
+          ],
+          "P40": [
+            2,
+            2
+          ],
+          "P1441": [
+            1,
+            1
+          ],
+          "P112": [
+            1,
+            1
+          ]
+        },
+        "MATRES": {
+          "BEFORE": [
+            340,
+            424
+          ],
+          "AFTER": [
+            66,
+            269
+          ],
+          "SIMULTANEOUS": [
+            0,
+            31
+          ]
+        },
+        "AVeriTeC": {
+          "REFUTES": [
+            101,
+            403
+          ],
+          "SUPPORTS": [
+            24,
+            222
+          ],
+          "NOT ENOUGH INFO": [
+            87,
+            135
+          ]
+        }
+      },
+      "n": {
+        "DWIE": 781,
+        "MATRES": 724,
+        "AVeriTeC": 760
+      },
+      "vs_L": {
+        "gain": {
+          "DWIE": 9.73111395646606,
+          "MATRES": 8.97790055248619,
+          "AVeriTeC": -1.5789473684210513,
+          "macro": 5.710022380177065
+        },
+        "interval": {
+          "DWIE": [
+            7.3979591836734695,
+            12.066752246469834
+          ],
+          "MATRES": [
+            4.733727810650888,
+            14.219474497681608
+          ],
+          "AVeriTeC": [
+            -3.9473684210526314,
+            0.7894736842105263
+          ],
+          "macro": [
+            3.8267611157712635,
+            7.8057760952497794
+          ]
+        }
+      }
+    },
+    "P": {
+      "accuracy": {
+        "DWIE": 65.55697823303457,
+        "MATRES": 55.52486187845304,
+        "AVeriTeC": 29.342105263157897
+      },
+      "macro": 50.141315124881835,
+      "recall": {
+        "DWIE": {
+          "P17": [
+            214,
+            308
+          ],
+          "P463": [
+            71,
+            159
+          ],
+          "P27": [
+            89,
+            144
+          ],
+          "P35": [
+            30,
+            33
+          ],
+          "P6": [
+            28,
+            29
+          ],
+          "P159": [
+            18,
+            21
+          ],
+          "P361": [
+            10,
+            21
+          ],
+          "P131": [
+            13,
+            17
+          ],
+          "P54": [
+            10,
+            13
+          ],
+          "P166": [
+            9,
+            10
+          ],
+          "P26": [
+            6,
+            7
+          ],
+          "P276": [
+            7,
+            7
+          ],
+          "P176": [
+            2,
+            6
+          ],
+          "P57": [
+            2,
+            2
+          ],
+          "P40": [
+            1,
+            2
+          ],
+          "P1441": [
+            1,
+            1
+          ],
+          "P112": [
+            1,
+            1
+          ]
+        },
+        "MATRES": {
+          "BEFORE": [
+            309,
+            424
+          ],
+          "AFTER": [
+            93,
+            269
+          ],
+          "SIMULTANEOUS": [
+            0,
+            31
+          ]
+        },
+        "AVeriTeC": {
+          "REFUTES": [
+            98,
+            403
+          ],
+          "SUPPORTS": [
+            35,
+            222
+          ],
+          "NOT ENOUGH INFO": [
+            90,
+            135
+          ]
+        }
+      },
+      "n": {
+        "DWIE": 781,
+        "MATRES": 724,
+        "AVeriTeC": 760
+      },
+      "vs_L": {
+        "gain": {
+          "DWIE": 1.1523687580025523,
+          "MATRES": 8.425414364640886,
+          "AVeriTeC": -0.13157894736841413,
+          "macro": 3.1487347250916713
+        },
+        "interval": {
+          "DWIE": [
+            -0.6329113924050633,
+            2.929427430093209
+          ],
+          "MATRES": [
+            4.3478260869565215,
+            13.636363636363635
+          ],
+          "AVeriTeC": [
+            -2.236842105263158,
+            1.9736842105263157
+          ],
+          "macro": [
+            1.5382766378862758,
+            5.114756189861654
+          ]
+        }
+      }
+    },
+    "T": {
+      "accuracy": {
+        "DWIE": 75.28809218950065,
+        "MATRES": 49.171270718232044,
+        "AVeriTeC": 29.210526315789476
+      },
+      "macro": 51.22329640784073,
+      "recall": {
+        "DWIE": {
+          "P17": [
+            244,
+            308
+          ],
+          "P463": [
+            92,
+            159
+          ],
+          "P27": [
+            105,
+            144
+          ],
+          "P35": [
+            31,
+            33
+          ],
+          "P6": [
+            28,
+            29
+          ],
+          "P159": [
+            18,
+            21
+          ],
+          "P361": [
+            14,
+            21
+          ],
+          "P131": [
+            16,
+            17
+          ],
+          "P54": [
+            11,
+            13
+          ],
+          "P166": [
+            10,
+            10
+          ],
+          "P26": [
+            6,
+            7
+          ],
+          "P276": [
+            7,
+            7
+          ],
+          "P176": [
+            2,
+            6
+          ],
+          "P57": [
+            2,
+            2
+          ],
+          "P40": [
+            1,
+            2
+          ],
+          "P1441": [
+            1,
+            1
+          ],
+          "P112": [
+            0,
+            1
+          ]
+        },
+        "MATRES": {
+          "BEFORE": [
+            225,
+            424
+          ],
+          "AFTER": [
+            127,
+            269
+          ],
+          "SIMULTANEOUS": [
+            4,
+            31
+          ]
+        },
+        "AVeriTeC": {
+          "REFUTES": [
+            98,
+            403
+          ],
+          "SUPPORTS": [
+            32,
+            222
+          ],
+          "NOT ENOUGH INFO": [
+            92,
+            135
+          ]
+        }
+      },
+      "n": {
+        "DWIE": 781,
+        "MATRES": 724,
+        "AVeriTeC": 760
+      },
+      "vs_L": {
+        "gain": {
+          "DWIE": 10.883482714468627,
+          "MATRES": 2.0718232044198928,
+          "AVeriTeC": -0.2631578947368354,
+          "macro": 4.230716008050564
+        },
+        "interval": {
+          "DWIE": [
+            8.596713021491782,
+            13.21243523316062
+          ],
+          "MATRES": [
+            -0.19047619047619047,
+            4.768392370572207
+          ],
+          "AVeriTeC": [
+            -1.5789473684210527,
+            1.0526315789473684
+          ],
+          "macro": [
+            3.067568869794748,
+            5.485554608248142
+          ]
+        }
+      }
+    },
+    "A5": {
+      "accuracy": {
+        "DWIE": 65.30089628681178,
+        "MATRES": 51.657458563535904,
+        "AVeriTeC": 29.605263157894733
+      },
+      "macro": 48.85453933608081,
+      "recall": {
+        "DWIE": {
+          "P17": [
+            214,
+            308
+          ],
+          "P463": [
+            72,
+            159
+          ],
+          "P27": [
+            83,
+            144
+          ],
+          "P35": [
+            31,
+            33
+          ],
+          "P6": [
+            28,
+            29
+          ],
+          "P159": [
+            18,
+            21
+          ],
+          "P361": [
+            12,
+            21
+          ],
+          "P131": [
+            15,
+            17
+          ],
+          "P54": [
+            10,
+            13
+          ],
+          "P166": [
+            9,
+            10
+          ],
+          "P26": [
+            6,
+            7
+          ],
+          "P276": [
+            7,
+            7
+          ],
+          "P176": [
+            2,
+            6
+          ],
+          "P57": [
+            2,
+            2
+          ],
+          "P40": [
+            0,
+            2
+          ],
+          "P1441": [
+            1,
+            1
+          ],
+          "P112": [
+            0,
+            1
+          ]
+        },
+        "MATRES": {
+          "BEFORE": [
+            230,
+            424
+          ],
+          "AFTER": [
+            144,
+            269
+          ],
+          "SIMULTANEOUS": [
+            0,
+            31
+          ]
+        },
+        "AVeriTeC": {
+          "REFUTES": [
+            101,
+            403
+          ],
+          "SUPPORTS": [
+            36,
+            222
+          ],
+          "NOT ENOUGH INFO": [
+            88,
+            135
+          ]
+        }
+      },
+      "n": {
+        "DWIE": 781,
+        "MATRES": 724,
+        "AVeriTeC": 760
+      },
+      "vs_L": {
+        "gain": {
+          "DWIE": 0.8962868117797598,
+          "MATRES": 4.558011049723753,
+          "AVeriTeC": 0.13157894736842124,
+          "macro": 1.8619589362906481
+        },
+        "interval": {
+          "DWIE": [
+            -0.5108556832694764,
+            2.284263959390863
+          ],
+          "MATRES": [
+            2.095808383233533,
+            7.563025210084033
+          ],
+          "AVeriTeC": [
+            -1.5789473684210527,
+            1.710526315789474
+          ],
+          "macro": [
+            0.792091106670659,
+            3.0956882544608284
+          ]
+        }
+      }
+    }
+  },
+  "decision": {
+    "P+T-L": {
+      "G1": false,
+      "G2": true,
+      "lockbox_macro": 79.10547631625286
+    },
+    "P": {
+      "G1": false,
+      "G2": true,
+      "lockbox_macro": 78.4447272719856
+    },
+    "T": {
+      "G1": false,
+      "G2": true,
+      "lockbox_macro": 78.29979855336433
+    },
+    "A5": {
+      "G1": false,
+      "G2": true,
+      "lockbox_macro": 78.53187350810171
+    }
+  },
+  "external_majority_baseline": {
+    "DWIE": 39.436619718309856,
+    "MATRES": 58.56353591160221,
+    "AVeriTeC": 53.026315789473685
+  },
+  "selected": "L",
+  "rule": "G1: repository legacy guards against L. Choice, Noul and Score accuracy may each\nfall at most 2 points; workflow slices under 200 rows are reported, not gated;\nsecurity-incident Noul positives may have no more false negatives than L.\nG2: external macro accuracy (DWIE, MATRES, AVeriTeC) at most 2 points below L.\nSelection: among non-L candidates passing both, the highest lockbox macro.\nReads saved predictions only, and writes one decision receipt.\n"
+}

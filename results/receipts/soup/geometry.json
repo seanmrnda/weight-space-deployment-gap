@@ -1,0 +1,52 @@
+{
+  "schema": "p2048-weight-space-geometry-v1",
+  "task_vectors_relative_to": "L",
+  "anchors": {
+    "L": "2a70d51d4b74dffaf1dff63c175019ac07f7fc131e21c912dd3f189968311dba",
+    "P": "ebc1b9b73a4e70469f7678d95320e577e1db572df0e016fd8c43e1cc10063fc8",
+    "T": "eaa3968255efd07b927e590575882b6523b9ef4f3a59fa161cdab47dccfd832e",
+    "H": "1a9d8adfde970930a4357a12948a30fde0e6fe2f51f34f017fd81311e0a04903"
+  },
+  "excluded": [
+    "temperature",
+    "act_head.*"
+  ],
+  "groups": {
+    "encoder_rest": {
+      "base_l2": 620.7673182419987,
+      "relative_percent_P": 0.14849753227979962,
+      "relative_percent_T": 0.037221321258563415,
+      "relative_percent_H": 0.24704590382381747,
+      "cosine_P_T": -0.06564070167643482,
+      "cosine_P_H": 0.6065395242610598,
+      "cosine_T_H": -0.04373993579686051
+    },
+    "experts": {
+      "base_l2": 360.2725306425227,
+      "relative_percent_P": 0.2754497312880586,
+      "relative_percent_T": 0.07880598353672785,
+      "relative_percent_H": 0.47157097996021546,
+      "cosine_P_T": -0.05554252374249553,
+      "cosine_P_H": 0.5856405332490445,
+      "cosine_T_H": -0.03610242682431278
+    },
+    "routers": {
+      "base_l2": 2.6207931860905607,
+      "relative_percent_P": 1.2881064227913912,
+      "relative_percent_T": 0.557849785152998,
+      "relative_percent_H": 2.332757963382753,
+      "cosine_P_T": -0.10974223624910555,
+      "cosine_P_H": 0.5874848455240179,
+      "cosine_T_H": -0.09320570054489496
+    },
+    "decision": {
+      "base_l2": 76.73840086848928,
+      "relative_percent_P": 0.7498832503576862,
+      "relative_percent_T": 0.3964140457777464,
+      "relative_percent_H": 1.0721576952399368,
+      "cosine_P_T": 0.26231765895005305,
+      "cosine_P_H": 0.7090652027486392,
+      "cosine_T_H": 0.18814141403403195
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "p2048-weight-space-soup-freeze-v1",
+  "created": "2026-11-07T17:49:37+08:00",
+  "selected": {
+    "id": "P+T-L",
+    "rules": [
+      {
+        "match": ".*",
+        "coefs": {
+          "P": 1,
+          "T": 1,
+          "L": -1
+        }
+      }
+    ]
+  },
+  "selected_fingerprint": "8187b060d60cfd3b",
+  "references": {
+    "L": "47e21c121fcc8731",
+    "P": "730a76fefd2ce12d",
+    "T": "bb2cd8eb66a2c9b3",
+    "A5": "3047a966ff9d34a1"
+  },
+  "reference_fingerprints": [
+    "47e21c121fcc8731",
+    "730a76fefd2ce12d",
+    "bb2cd8eb66a2c9b3",
+    "3047a966ff9d34a1"
+  ],
+  "rule": "Rule 3: eligible = no source below L in validation correct count; then macro accuracy; then macro NLL at search-fitted temperature; then edit norm.",
+  "validation_correct": {
+    "L": {
+      "Re-DocRED": 339,
+      "MAVEN-ERE": 135,
+      "FEVEROUS": 221
+    },
+    "P": {
+      "Re-DocRED": 340,
+      "MAVEN-ERE": 138,
+      "FEVEROUS": 219
+    },
+    "H-halfT-experts": {
+      "Re-DocRED": 353,
+      "MAVEN-ERE": 137,
+      "FEVEROUS": 212
+    },
+    "H+T-L": {
+      "Re-DocRED": 354,
+      "MAVEN-ERE": 137,
+      "FEVEROUS": 210
+    },
+    "P+T-L": {
+      "Re-DocRED": 350,
+      "MAVEN-ERE": 138,
+      "FEVEROUS": 222
+    },
+    "P+.5(T-L)": {
+      "Re-DocRED": 344,
+      "MAVEN-ERE": 139,
+      "FEVEROUS": 221
+    },
+    "H": {
+      "Re-DocRED": 339,
+      "MAVEN-ERE": 137,
+      "FEVEROUS": 215
+    }
+  },
+  "eligible": [
+    "L",
+    "P+T-L",
+    "P+.5(T-L)"
+  ],
+  "choice_temperature_fitted_on_search": 1.0127672366395655,
+  "plan_sha256": "ed43e9bb834acb6afbc38bbac718271395f36caf451856ecff050c5cd765f10d",
+  "data_sha256": "27e7db82f2f95bd63b763b002c109b13d1c417e36b510074eb8e4af76c3b4172",
+  "script_sha256": "e82cb2b2f2af539ff04a584f1433c1286261459290a2d7f41896d9f08c1fe8f8",
+  "replay_audit": {
+    "search": [
+      {
+        "id": "L",
+        "fingerprint": "47e21c121fcc8731",
+        "rows": 60,
+        "worst_logit_error": 0.0,
+        "answer_flips": 0
+      },
+      {
+        "id": "P+T-L",
+        "fingerprint": "8187b060d60cfd3b",
+        "rows": 60,
+        "worst_logit_error": 0.0,
+        "answer_flips": 0
+      }
+    ],
+    "validation": [
+      {
+        "id": "L",
+        "fingerprint": "47e21c121fcc8731",
+        "rows": 60,
+        "worst_logit_error": 0.0,
+        "answer_flips": 0
+      },
+      {
+        "id": "P+T-L",
+        "fingerprint": "8187b060d60cfd3b",
+        "rows": 60,
+        "worst_logit_error": 0.0,
+        "answer_flips": 0
+      }
+    ]
+  },
+  "lockbox_opened": false
+}

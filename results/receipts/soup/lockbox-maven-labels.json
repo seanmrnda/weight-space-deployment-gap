@@ -1,0 +1,210 @@
+{
+  "role": "lockbox",
+  "source": "MAVEN-ERE",
+  "table": [
+    {
+      "id": "P+T-L",
+      "rows": 210,
+      "majority_label": "BEFORE",
+      "majority_accuracy": 0.7047619047619048,
+      "recall": {
+        "BEFORE": [
+          137,
+          148
+        ],
+        "CONTAINS": [
+          22,
+          40
+        ],
+        "PRECONDITION": [
+          12,
+          14
+        ],
+        "OVERLAP": [
+          0,
+          4
+        ],
+        "SIMULTANEOUS": [
+          1,
+          2
+        ],
+        "CAUSE": [
+          1,
+          2
+        ]
+      },
+      "balanced_accuracy": 0.5554697554697555,
+      "predicted": {
+        "BEFORE": 159,
+        "CONTAINS": 29,
+        "PRECONDITION": 13,
+        "OVERLAP": 5,
+        "CAUSE": 3,
+        "SIMULTANEOUS": 1
+      }
+    },
+    {
+      "id": "L",
+      "rows": 210,
+      "majority_label": "BEFORE",
+      "majority_accuracy": 0.7047619047619048,
+      "recall": {
+        "BEFORE": [
+          137,
+          148
+        ],
+        "CONTAINS": [
+          22,
+          40
+        ],
+        "PRECONDITION": [
+          11,
+          14
+        ],
+        "OVERLAP": [
+          0,
+          4
+        ],
+        "SIMULTANEOUS": [
+          1,
+          2
+        ],
+        "CAUSE": [
+          1,
+          2
+        ]
+      },
+      "balanced_accuracy": 0.5435649935649935,
+      "predicted": {
+        "BEFORE": 158,
+        "CONTAINS": 28,
+        "PRECONDITION": 12,
+        "SIMULTANEOUS": 5,
+        "CAUSE": 4,
+        "OVERLAP": 3
+      }
+    },
+    {
+      "id": "P",
+      "rows": 210,
+      "majority_label": "BEFORE",
+      "majority_accuracy": 0.7047619047619048,
+      "recall": {
+        "BEFORE": [
+          141,
+          148
+        ],
+        "CONTAINS": [
+          22,
+          40
+        ],
+        "PRECONDITION": [
+          12,
+          14
+        ],
+        "OVERLAP": [
+          0,
+          4
+        ],
+        "SIMULTANEOUS": [
+          1,
+          2
+        ],
+        "CAUSE": [
+          1,
+          2
+        ]
+      },
+      "balanced_accuracy": 0.55997425997426,
+      "predicted": {
+        "BEFORE": 163,
+        "CONTAINS": 30,
+        "PRECONDITION": 13,
+        "CAUSE": 3,
+        "SIMULTANEOUS": 1
+      }
+    },
+    {
+      "id": "T",
+      "rows": 210,
+      "majority_label": "BEFORE",
+      "majority_accuracy": 0.7047619047619048,
+      "recall": {
+        "BEFORE": [
+          136,
+          148
+        ],
+        "CONTAINS": [
+          18,
+          40
+        ],
+        "PRECONDITION": [
+          11,
+          14
+        ],
+        "OVERLAP": [
+          0,
+          4
+        ],
+        "SIMULTANEOUS": [
+          1,
+          2
+        ],
+        "CAUSE": [
+          0,
+          2
+        ]
+      },
+      "balanced_accuracy": 0.44243886743886746,
+      "predicted": {
+        "BEFORE": 161,
+        "CONTAINS": 24,
+        "PRECONDITION": 13,
+        "OVERLAP": 6,
+        "SIMULTANEOUS": 3,
+        "CAUSE": 3
+      }
+    },
+    {
+      "id": "A5",
+      "rows": 210,
+      "majority_label": "BEFORE",
+      "majority_accuracy": 0.7047619047619048,
+      "recall": {
+        "BEFORE": [
+          140,
+          148
+        ],
+        "CONTAINS": [
+          22,
+          40
+        ],
+        "PRECONDITION": [
+          12,
+          14
+        ],
+        "OVERLAP": [
+          0,
+          4
+        ],
+        "SIMULTANEOUS": [
+          1,
+          2
+        ],
+        "CAUSE": [
+          1,
+          2
+        ]
+      },
+      "balanced_accuracy": 0.5588481338481338,
+      "predicted": {
+        "BEFORE": 162,
+        "CONTAINS": 28,
+        "PRECONDITION": 13,
+        "CAUSE": 3,
+        "OVERLAP": 2,
+        "SIMULTANEOUS": 2
+      }
+    }
+  ]
+}
