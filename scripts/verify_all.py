@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Recompute every reported number in the paper from the released logits and labels, and check it.
+"""Recompute the paper's main results (every table and figure of its results and deployment sections) from the
+released logits and labels, and check each value against the paper.
 
 Standard library only. Runs on a CPU in about a minute. Exit status 0 means every check matched the paper.
 Bootstrap intervals use the study's exact procedure: paired component-cluster resampling, 4,000 draws, seed 2049,

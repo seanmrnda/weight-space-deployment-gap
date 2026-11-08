@@ -8,11 +8,11 @@ The study edited the weights of a 188M-parameter decision model over seven pre-r
 
 | Level | What it checks | Needs | Time |
 | --- | --- | --- | --- |
-| **1. Verify** | Every number in the paper: accuracies, paired bootstrap intervals, gate decisions, sign tests and figure values. They are recomputed from the released logits and compared with the published values. | Python 3.9 or later, standard library only | about 10 seconds |
+| **1. Verify** | The main results: every table and figure in the paper's results and deployment sections, including accuracies, paired bootstrap intervals, gate decisions and sign tests. They are recomputed from the released logits and compared with the published values. Rounds 1 to 5 are documented by their original receipts. | Python 3.9 or later, standard library only | about 10 seconds |
 | **2. Rebuild data** | The synthetic benchmark (byte-identical) and the external benchmark (every released question and gold answer), rebuilt from public sources | Python standard library and the public source datasets | minutes |
 | **3. Rescore models** | Re-running the forward passes | The model checkpoints, which are **not public** (see [Checkpoints](#checkpoints)) | — |
 
-### Level 1: verify every reported number
+### Level 1: verify the main results
 
 ```bash
 python3 scripts/verify_all.py
