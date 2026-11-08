@@ -76,6 +76,10 @@ The model checkpoints are **not publicly released**. **They are available to rev
 
 The code is under the MIT License (`LICENSE`). Data derived from public datasets keeps the original terms; see [DATA_LICENSES.md](DATA_LICENSES.md).
 
+## Author
+
+Sean Lester Miranda, ORCID [0009-0000-9782-4206](https://orcid.org/0009-0000-9782-4206), contact@seanmiranda.com
+
 ## Citation
 
 ```bibtex
