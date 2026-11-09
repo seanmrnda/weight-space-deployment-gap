@@ -8,7 +8,7 @@ The study edited the weights of a 188M-parameter decision model over seven pre-r
 
 | Level | What it checks | Needs | Time |
 | --- | --- | --- | --- |
-| **1. Verify** | The main results: every table and figure in the paper's results and deployment sections, including accuracies, paired bootstrap intervals, gate decisions and sign tests. They are recomputed from the released logits and compared with the published values. Rounds 1 to 5 are documented by their original receipts. | Python 3.9 or later, standard library only | about 10 seconds |
+| **1. Verify** | The main results: every table and figure in the paper's results and deployment sections, including accuracies, paired bootstrap intervals, gate inputs and question- and case-level sign tests, plus the analysis section's encoder distance and module-substitution counts. They are recomputed from the released logits and compared with the published values. Rounds 1 to 5 are documented by their original receipts. | Python 3.9 or later, standard library only | about 10 seconds |
 | **2. Rebuild data** | The synthetic benchmark (byte-identical) and the external benchmark (every released question and gold answer), rebuilt from public sources | Python standard library and the public source datasets | minutes |
 | **3. Rescore models** | Re-running the forward passes | The model checkpoints, which are **not public** (see [Checkpoints](#checkpoints)) | — |
 
@@ -18,7 +18,7 @@ The study edited the weights of a 188M-parameter decision model over seven pre-r
 python3 scripts/verify_all.py
 ```
 
-The script prints one line per check and ends with `219 of 219 checks match the paper.` It exits non-zero if any check fails. The intervals reproduce digit for digit because the script uses the study's exact procedure: paired component-cluster bootstrap, 4,000 draws, seed 2049, rows in frozen plan order.
+The script prints one line per check and ends with `241 of 241 checks match the paper.` It exits non-zero if any check fails. The intervals reproduce digit for digit because the script uses the study's exact procedure: paired component-cluster bootstrap, 4,000 draws, seed 2049, rows in frozen plan order.
 
 ### Level 2: rebuild the evaluation data
 

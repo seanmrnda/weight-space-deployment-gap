@@ -183,6 +183,19 @@ def main():
         # Compare at the paper's printed precision: within half a unit of its last digit.
         check(f'legacy {arm} workflow sign-test p', p, px, 0.5 * 10 ** math.floor(math.log10(px)))
 
+    # Case-level sensitivity for the workflow sign tests (post hoc; 160 cases of five questions).
+    check('legacy workflow cases', len({r['component'] for r in wf}), 160, 0)
+    check('legacy security positive cases', len({r['component'] for r in sec}), 28, 0)
+    case_expect = {'P+T-L': (20, 53, 0.0001), 'P': (21, 44, 0.006), 'T': (11, 23, 0.058), 'A5': (19, 22, 0.76)}
+    for arm, (ux, dx, px) in case_expect.items():
+        net = collections.Counter()
+        for r in wf:
+            net[r['component']] += int(correct(r, ll[arm][r['id']])) - int(correct(r, ll['L'][r['id']]))
+        up, down = sum(v > 0 for v in net.values()), sum(v < 0 for v in net.values())
+        check(f'legacy {arm} cases improved', up, ux, 0)
+        check(f'legacy {arm} cases worsened', down, dx, 0)
+        check(f'legacy {arm} case-level sign-test p', sign_test(up, down), px, 0.5 * 10 ** math.floor(math.log10(px)))
+
     # Synthetic benchmark: clear-cut security and the temporal prior shift.
     syn = labels('synthetic')
     sl = {arm: logits('synthetic', arm) for arm in ('L', 'P', 'T', 'A5', 'P+T-L')}
@@ -197,6 +210,16 @@ def main():
         check(f'synthetic {arm} positives fixed', f, 0, 0)
         check(f'synthetic {arm} positives broken', b, broken, 0)
     check('synthetic A5 sign-test p', sign_test(0, 12), 0.0005, 0.00002)
+    check('synthetic positive judgments', len(pos), 50, 0)
+    check('synthetic positive cases', len({r['component'] for r in pos}), 25, 0)
+    syn_p = sl['P']
+    check('synthetic P false negatives on credential questions',
+          sum(not correct(r, syn_p[r['id']]) for r in pos if r['id'].endswith(':credential_compromise')), 21, 0)
+    check('synthetic P false negatives on malicious-activity questions',
+          sum(not correct(r, syn_p[r['id']]) for r in pos if r['id'].endswith(':true_positive')), 0, 0)
+    f = sum(correct(r, sl['P+T-L'][r['id']]) and not correct(r, sl['L'][r['id']]) for r in pos)
+    broken_cases = {r['component'] for r in pos if not correct(r, sl['P+T-L'][r['id']]) and correct(r, sl['L'][r['id']])}
+    check('synthetic P+T-L broken positives span cases', len(broken_cases), 20, 0)
     temporal = [r for r in syn if r['source'] == 'temporal']
     for arm, counts in (('P+T-L', (30, 8, 0)), ('L', (9, 15, 6))):
         for lab, exp in zip(('BEFORE', 'AFTER', 'SIMULTANEOUS'), counts):
@@ -223,6 +246,19 @@ def main():
         check(f'blend {arm} worst legacy slice', min(accuracy(leg, bl_leg[arm], p) - accuracy(leg, ll['L'], p) for p in slices.values()), worst, 0.006)
         check(f'blend {arm} legacy FN', sum(not correct(r, bl_leg[arm][r['id']]) for r in sec), fn, 0)
         check(f'blend {arm} synthetic misses', sum(not correct(r, bl_syn[arm][r['id']]) for r in pos), miss, 0)
+
+    # Analysis section: full-encoder distance of T from L, and decision-module substitutions (receipts).
+    g = json.loads((REPO / 'results/receipts/soup/geometry.json').read_text())['groups']
+    groups = ('encoder_rest', 'experts', 'routers')
+    num = sum((g[k]['relative_percent_T'] / 100 * g[k]['base_l2']) ** 2 for k in groups)
+    den = sum(g[k]['base_l2'] ** 2 for k in groups)
+    check('T-L full-encoder relative distance (%)', 100 * math.sqrt(num / den), 0.051, 0.0006)
+    check('T-L non-expert, non-router encoder distance (%)', g['encoder_rest']['relative_percent_T'], 0.037, 0.0006)
+    mods = {i['id']: i['scores'] for i in json.loads((REPO / 'results/receipts/soup/modules-report.json').read_text())['table']}
+    base = mods['P+T-L']
+    worst = max(abs(mods[v][s]['correct'] - base[s]['correct']) for v in ('noT-decision', 'noP-decision', 'L-decision', 'half-decision')
+                for s in LOCKBOX_SOURCES)
+    check('decision-module substitutions: max net change in correct count per source', worst, 2, 0)
 
     width = max(len(c[0]) for c in CHECKS)
     for label, got, exp, ok in CHECKS:
